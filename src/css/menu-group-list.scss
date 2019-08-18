@@ -1,0 +1,23 @@
+
+
+.menu-group-list {
+  padding-left:20px;
+ text-align: left;
+  color: #fff4e0;
+  overflow: scroll;
+
+  .name {
+    margin-left: 25px;
+  }
+
+  .expansion {
+    background-color: #7b766f;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    font-size:12px;
+    font-weight:600;
+    color: #000;
+    padding-left: 10px;
+  }
+}

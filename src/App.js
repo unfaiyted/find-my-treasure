@@ -1,25 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import Icon from "./components/Icon";
+import {StateProvider} from "./AppContext";
+import {loadConfiguration} from "./app-config";
+import WindowManager from "./components/WindowManager";
+import {reducer} from "./utils/reducer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    const config = loadConfiguration();
+
+    // const [isMapOpen, setMapOpen] = useState(config.mapDefault);
+    // const [isMenuOpen, setMenuOpen] = useState(config.menuDefault);
+    // const [isMenuMapFinderOpen, setMenuMapFinderOpen] = useState(config.menuDefault);
+    //
+    // const toggleMap = () => {
+    //     localStorage.setItem("mapOpen", JSON.stringify(!isMapOpen));
+    //     setMapOpen(!isMapOpen);
+    // };
+    //
+    // const toggleMenu = () => {
+    //     localStorage.setItem("menuOpen", JSON.stringify(!isMenuOpen));
+    //     setMenuOpen(!isMenuOpen)
+    // };
+    //
+    // const toggleMapFinder = () => {
+    //     localStorage.setItem("menuMapFinderOpen", JSON.stringify(!isMenuMapFinderOpen));
+    //     setMenuMapFinderOpen(!isMenuMapFinderOpen)
+    // };
+
+
+    return (
+        <StateProvider initialState={config} reducer={reducer}>
+            <div className="App">
+              <header className="App-header">
+
+              </header>
+                <Icon window="menuLocations" name="signs"/>
+                {/*<Icon window="menuLocations" />*/}
+
+               {/* {isMapOpen && <TreasureMap/>}*/}
+               {/* {isMenuOpen && <MenuLocations onClick={toggleMenu}/>}*/}
+               {/*<MenuMapFinder onClick={toggleMapFinder}/>*/}
+               <WindowManager/>
+            </div>
+        </StateProvider>
   );
 }
 
