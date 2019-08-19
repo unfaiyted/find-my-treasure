@@ -6,11 +6,6 @@ const WindowManager = () => {
 
     const [{windows}] = useStateValue()
 
-
-    useEffect(()=> {
-        console.log("context changed in window")
-    }, [Object.values(windows)]);
-
     let openWindows = [];
 
     for(const key in windows) {

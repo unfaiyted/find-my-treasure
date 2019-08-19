@@ -6,11 +6,23 @@
   color: #fff4e0;
   overflow: scroll;
 
-  .name {
-    margin-left: 25px;
+
+
+  .location {
+   margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    img {
+      display: inline-block;
+    }
+
+    .name {
+      margin-left: 5px;
+    }
   }
 
   .expansion {
+    font-family: 'Oswald', sans-serif;
     background-color: #7b766f;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;

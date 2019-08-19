@@ -14,7 +14,7 @@ MenuLocations = (props) => {
 
     const [activeGroup, setGroup] = useState("All");
 
-    return <MenuContainer name="Locations" onClick={onClick} width={350} height={520} id={id}>
+    return <MenuContainer name="Locations" onClick={onClick} width={350} height={540} id={id}>
                 <div className="menu-group">
                     <MenuItem text="All" onClick={() => setGroup("All")} activeGroup={activeGroup}/>
                     <MenuItem text="HW" onClick={() => setGroup("HW")} activeGroup={activeGroup}/>

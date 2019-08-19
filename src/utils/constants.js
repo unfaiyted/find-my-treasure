@@ -1,8 +1,13 @@
-
+export const EXPANSIONS = {
+    ShB: "Shadowbringers",
+    HW: "Heavensward",
+    SB: "Stormblood"
+}
 
 export const ZONE = [
     {
         name: 'Amn Araeng',
+        shortName: "AmnArang",
         maps: ["Map 1", "Map 2"],
         expansion: "ShB",
     },
@@ -53,6 +58,7 @@ export const ZONE = [
     },
     {
         name: "Coerthas Western Highlands",
+        shortName: "cwh",
         expansion: "HW",
     },
     {
@@ -66,6 +72,11 @@ export const ZONE = [
     {
         name: "Azys Lla",
         expansion: "HW",
+    },
+    {
+        name: "Lakeland",
+        shortName: 'lakeland',
+        expansion: "ShB",
     },
 
 

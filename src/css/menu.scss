@@ -59,11 +59,12 @@
       width: calc(100% - 11px);
       flex-direction: row;
       justify-content: space-between;
+      font-family: 'Oswald', sans-serif;
 
       h2 {
         text-align: left;
         color: #d7d7d7;
-        font-weight: 500;
+        font-weight: 300;
         font-size: 20px;
         margin:0;
         padding:0;
@@ -85,6 +86,24 @@
       display: flex;
       flex-direction: row;
       padding-left: 20px;
+
+      .info {
+        color: #fff;
+        min-width: 100px;
+        padding-right: 5px;
+        font-family: 'Oswald', sans-serif;
+        vertical-align: center;
+        text-align: center;
+        font-size: 15px;
+        line-height: 15px;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+
+      &.center{
+        justify-content: center;
+        padding-left: 0;
+      }
     }
 
 

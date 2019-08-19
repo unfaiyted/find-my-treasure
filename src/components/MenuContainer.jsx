@@ -10,7 +10,6 @@ const MenuContainer = (props) => {
     const {
         name,
         id,
-        onClick,
         width,
         height,
         children
@@ -19,13 +18,12 @@ const MenuContainer = (props) => {
     let defaultX = (window.innerWidth / 2) - 225;
     let defaultY = (window.innerHeight / 2) - 300;
 
-    if(localStorage.getItem("menu" + name) !== null) {
-        const newPos = JSON.parse(localStorage.getItem("menu" + name));
+    if(localStorage.getItem(id) !== null) {
+        const newPos = JSON.parse(localStorage.getItem(id));
         defaultX = newPos.x;
         defaultY = newPos.y;
     }
 
-    const [activeGroup, setGroup] = useState("All");
     const { toggle } = useWindow(id);
     const [pos, setPos] = useState({x: defaultX, y: defaultY});
 
@@ -40,16 +38,17 @@ const MenuContainer = (props) => {
     };
 
     const handleStop = () =>{
-        localStorage.setItem("menu" + name, JSON.stringify(pos));
+        localStorage.setItem(id, JSON.stringify(pos));
     };
 
     return <Draggable
         defaultPosition={{x: pos.x, y: pos.y}}
         position={null}
+        handle=".header"
         onDrag={handleDrag}
         onStop={handleStop}
         // scale={1}
-    >
+       >
         <div className="menu-container" style={style}>
             <div className="menu" >
                 <div className="header">
@@ -63,7 +62,11 @@ const MenuContainer = (props) => {
 };
 
 MenuContainer.propTypes =  {
-
+    name: PropTypes.string,
+    id: PropTypes.string.isRequired,
+    width: PropTypes.number,
+    height: PropTypes.number,
+    children: PropTypes.node
 };
 
 MenuContainer.defaultProps = {

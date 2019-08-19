@@ -10,7 +10,7 @@ export const loadConfiguration = () => {
         menuMapFinder: {
             id: 'menuMapFinder',
             component: MenuMapFinder,
-            isOpen: true,
+            isOpen: false,
         },
         menuLocations: {
             id: "menuLocations",

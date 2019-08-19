@@ -1,10 +1,8 @@
 import React from 'react';
 import PropTypes from "prop-types";
 import "../css/menu-item.scss"
-import {AppContext} from "../AppContext";
 
 const MenuItem = (props) => {
-
     const {text, onClick, activeGroup} = props;
 
     const active = (activeGroup === text) ? 'active' : 'inactive';

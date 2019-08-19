@@ -1,12 +1,14 @@
 import React, {useContext} from "react";
-import {ZONE} from "../utils/constants";
+import {EXPANSIONS, ZONE} from "../utils/constants";
 import "../css/menu-group-list.scss"
-import {AppContext} from "../AppContext";
+import { useStateValue} from "../AppContext";
+import {useWindow} from "./useWindow";
 
 const MenuGroupList = (props) => {
     const {group} = props;
+    const  [{chosenLocation}, dispatch] = useStateValue();
 
-
+    const { open, close } = useWindow("menuMapFinder");
 
     const displayedZones = ZONE.filter((z) => (z.expansion === group || group === "All" ));
 
@@ -15,13 +17,16 @@ const MenuGroupList = (props) => {
    let expansionName;
 
    const toggleLocation = (e) => {
-       console.log(e.target.innerHTML);
-
+       close();
+        dispatch({
+            type: 'changeLocation',
+            location: e.target.innerHTML
+        });
+        open();
    };
 
     return (
         <div className="menu-group-list">
-
             {displayedZones.map((loc,i) => {
                 let displayExp = false;
                 if(expansionName !== loc.expansion) {
@@ -30,8 +35,11 @@ const MenuGroupList = (props) => {
                 }
                 return (
                     <div key={i}>
-                        {(displayExp) && <div className="expansion">{loc.expansion}</div>}
+                        {(displayExp) && <div className="expansion">{EXPANSIONS[loc.expansion]}</div>}
+                        <div className="location">
+                            <img src="./aetheryte.png"/>
                         <div className="name" onClick={toggleLocation}>{loc.name}</div>
+                        </div>
                     </div>
                         )
             })}

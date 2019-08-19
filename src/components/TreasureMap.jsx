@@ -11,10 +11,12 @@ const TreasureMap = (props) => {
         backgroundImage: `url("./treasure-maps/${location}-${id}.png)`,
     };
 
+    console.log(`/${location}-${id}`);
+
     return (
 
         <div className="treasure-map" style={style}>
-       <img src={`./treasure-maps/fringes-1.png`} />
+       <img src={`./treasure-maps/${location}-${id}.png`} width={220} height={160} />
     </div>
 
             )

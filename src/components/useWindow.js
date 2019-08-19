@@ -4,7 +4,6 @@ import { useStateValue} from "../AppContext";
 
 export const useWindow = (window) => {
     const [{windows}, dispatch] = useStateValue();
-
     const [windowPos, setWindowPos] = useState(null);
 
     const active = windows[window];
@@ -14,7 +13,7 @@ export const useWindow = (window) => {
     }
 
     return {
-        active,
+        window: active,
         toggle: () => {
             dispatch({
                 type: 'toggleWindow',
@@ -23,6 +22,13 @@ export const useWindow = (window) => {
             })
         },
         open: () => {
+            dispatch({
+                type: 'toggleWindow',
+                id: active.id,
+                isOpen: true
+            })
+        },
+        close: () => {
             dispatch({
                 type: 'toggleWindow',
                 id: active.id,
