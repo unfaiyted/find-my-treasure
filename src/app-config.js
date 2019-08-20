@@ -1,5 +1,6 @@
 import MenuMapFinder from "./components/MenuMapFinder";
 import MenuLocations from "./components/MenuLocations";
+import MapWindow from "./components/MapWindow";
 
 export const loadConfiguration = () => {
 
@@ -15,6 +16,11 @@ export const loadConfiguration = () => {
         menuLocations: {
             id: "menuLocations",
             component: MenuLocations,
+            isOpen: true,
+        },
+        map: {
+            id: "map",
+            component: MapWindow,
             isOpen: true,
         }
     };
