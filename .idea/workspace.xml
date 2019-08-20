@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be50aef-9aee-4c30-a571-3ace0cc1c10a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/MapWindow.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Window.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/window.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MapWindow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapWindow.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +15,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.60387254">
+    <splitter split-orientation="horizontal" split-proportion="0.51799905">
       <split-first>
         <splitter split-orientation="vertical" split-proportion="0.7013889">
           <split-first>
@@ -48,7 +44,7 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/css/window.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="561">
+                    <state relative-caret-position="765">
                       <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
                     </state>
                   </provider>
@@ -126,8 +122,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/MapWindow.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+                <state relative-caret-position="561">
+                  <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
                   <folding>
                     <element signature="e#0#69#0" expanded="true" />
                   </folding>
@@ -318,12 +314,12 @@
       <option name="presentableId" value="Default" />
       <updated>1566044832922</updated>
       <workItem from="1566044835893" duration="45651000" />
-      <workItem from="1566172219890" duration="10811000" />
+      <workItem from="1566172219890" duration="12816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56462000" />
+    <option name="totallyTimeSpent" value="58467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2959" y="0" width="2908" height="1400" extended-state="0" />
@@ -572,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -596,17 +585,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/window.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="765">
           <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapWindow.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        <state relative-caret-position="561">
+          <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
           <folding>
             <element signature="e#0#69#0" expanded="true" />
           </folding>

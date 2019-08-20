@@ -26,21 +26,50 @@ const MapWindow = (props) => {
         backgroundRepeat: "no-repeat",
         backgroundPositionX: current.x,
         backgroundPositionY: current.y,
+        transition: "all 0.0s ease",
         width,
         height
     };
 
-    const zoomIn = () => {
-        setZoomLevel(zoomLevel+10);
+    const zoomIn = (e) => {
+        console.log(e)
+
+        const ratio = 1 -  (zoomLevel+10)/zoomLevel;
+
+        setZoomLevel(zoomLevel + 10);
+
+            setCurrent({
+                x: current.x + (e.clientX - current.x) * ratio,
+                y: current.y + (e.clientY - current.y) * ratio,
+            })
+
+            setOffset({
+                x: current.x,
+                y: current.y
+            })
     };
 
-    const zoomOut = () => {
-        setZoomLevel(zoomLevel-10);
+    const zoomOut = (e) => {
+
+        const ratio = 1 - (zoomLevel-10)/zoomLevel;
+
+        setZoomLevel(zoomLevel - 10);
+
+        setCurrent({
+            x: current.x + (e.clientX - current.x) * ratio,
+            y: current.y + (e.clientY - current.y) * ratio,
+        })
+
+        setOffset({
+            x: current.x,
+            y: current.y
+        })
+
     }
 
     const wheelZoom = (e) => {
              console.log(e);
-        (e.deltaY>0) ? zoomIn() : zoomOut()
+        (e.deltaY>0) ? zoomIn(e) : zoomOut(e)
     };
 
     const dragStart = (e) => {
