@@ -1,78 +1,115 @@
 import React, {useState, useContext, useLayoutEffect, useRef} from 'react';
 import Window from "./Window";
 import {useStateValue} from "../AppContext";
-
+import Pin from "./Pin"
 
 const MapWindow = (props) => {
 
+    const mapContainerRef = useRef();
     const mapRef = useRef();
 
+    const zoomFactor = 0.2;
+    const maxScale = 5;
+
     const  [{chosenLocation}, dispatch] = useStateValue();
-    const [zoomLevel, setZoomLevel] = useState(100);
+    const [scale, setScale] = useState(1);
     const [isActive, setActive] = useState(false);
     const [initial, setInitial] = useState({x:0,y:0});
     const [current, setCurrent] = useState({x:0,y:0});
     const [offset, setOffset] = useState({x:0,y:0});
+    const [mapLayer, setMapLayer] = useState({
+        width: 500,
+        height: 500
+    })
+
+
+    const size = {
+        w: 500,
+        h: 500
+    };
 
     const { id } = props;
 
-
     const width=500;
-    const height=500;
+    const height=400;
 
     const style = {
-        backgroundImage: `url("./maps/southernThanalan.png")`,
-        backgroundSize: `${zoomLevel}%`,
+        // backgroundImage: `url("./maps/southernThanalan.png")`,
         backgroundRepeat: "no-repeat",
-        backgroundPositionX: current.x,
-        backgroundPositionY: current.y,
-        transition: "all 0.0s ease",
-        width,
-        height
+        backgroundSize: `100%`,
+        overflow: "hidden",
+        transform: `translate3d(${current.x}px, ${current.y}px, 0) scale(${scale},${scale})`,
+        transition: "transform 0.00s",
+        width: "100%",
+        minHeight: height
     };
 
-    const zoomIn = (e) => {
+
+    const wheelZoom = (e) => {
+        e.preventDefault();
+
+        const container = mapContainerRef.current.getBoundingClientRect();
+
+        let delta = e.deltaY;
+
+        delta = Math.max(-1,Math.min(1,delta))*-1; // cap the delta to [-1,1] for cross browser consistency
+
         console.log(e)
 
-        const ratio = 1 -  (zoomLevel+10)/zoomLevel;
+        const zoomPoint = {
+            x: e.pageX - container.left,
+            y: e.pageY - container.top,
+        }
 
-        setZoomLevel(zoomLevel + 10);
+        console.log(zoomPoint);
 
-            setCurrent({
-                x: current.x + (e.clientX - current.x) * ratio,
-                y: current.y + (e.clientY - current.y) * ratio,
-            })
+        const zoomTarget = {
+            x: (zoomPoint.x - current.x)/scale,
+            y: (zoomPoint.y - current.y)/scale
+        }
 
-            setOffset({
-                x: current.x,
-                y: current.y
-            })
-    };
+        // setZoomPoint(e.pageX = offset)
 
-    const zoomOut = (e) => {
+        let currScale = (delta*zoomFactor*scale) + scale;
+        currScale = Math.max(1,Math.min(maxScale,currScale))
 
-        const ratio = 1 - (zoomLevel-10)/zoomLevel;
+        let pos = {
+            x:  -zoomTarget.x * currScale + zoomPoint.x,
+            y:  -zoomTarget.y * currScale + zoomPoint.y,
+        }
 
-        setZoomLevel(zoomLevel - 10);
+        if(pos.x>0)
+            pos.x = 0;
+        if(pos.x+size.w*scale<size.w)
+            pos.x = -size.w*(scale-1)
+        if(pos.y>0)
+            pos.y = 0
+        if(pos.y+size.h*scale<size.h)
+            pos.y = -size.h*(scale-1)
 
-        setCurrent({
-            x: current.x + (e.clientX - current.x) * ratio,
-            y: current.y + (e.clientY - current.y) * ratio,
-        })
+        setScale(currScale);
+        // setCurrent({
+        //     x: pos.x,
+        //     y: pos.y,
+        // })
 
         setOffset({
             x: current.x,
             y: current.y
         })
 
-    }
 
-    const wheelZoom = (e) => {
-             console.log(e);
-        (e.deltaY>0) ? zoomIn(e) : zoomOut(e)
+        console.log(mapRef.current.getBoundingClientRect());
+
+        setMapLayer({
+            overflow: "hidden",
+            transform: `translate3d(${current.x}px, ${current.y}px, 0) scale(${scale},${scale}) `,
+        });
+
     };
 
     const dragStart = (e) => {
+        e.preventDefault();
         console.log("mouse down");
 
         setInitial({
@@ -84,12 +121,13 @@ const MapWindow = (props) => {
 
     };
     const dragEnd = (e) => {
+        e.preventDefault();
         console.log("mouse up");
         setInitial({x:current.x, y: current.y});
         setActive(false);
     };
     const drag = (e) => {
-
+        e.preventDefault();
         if(isActive) {
             console.log("mouse moving",e);
             e.preventDefault();
@@ -103,14 +141,33 @@ const MapWindow = (props) => {
                 x: current.x,
                 y: current.y
             })
+
+            setMapLayer({
+                width: mapRef.current.getBoundingClientRect().width || width,
+                height: mapRef.current.getBoundingClientRect().height || height,
+                overflow: "hidden",
+                transform: `translate3d(${current.x}px, ${current.y}px, 0) `,
+            });
+
         }
     };
 
+    const resetMap = (e) => {
+        setCurrent({
+            x: 0,
+            y: 0
+        });
 
+        setOffset({
+            x: current.x,
+            y: current.y
+        });
 
+        setScale(1)
+    };
 
     useLayoutEffect(() => {
-        const {current} = mapRef;
+        const {current} = mapContainerRef;
         current.addEventListener("wheel", wheelZoom);
 
         current.addEventListener("mousedown", dragStart);
@@ -127,9 +184,15 @@ const MapWindow = (props) => {
         }
     });
 
-    return <Window name="MapWindow" width={width} height={height} id={id}>
-        <div className="map" style={style} ref={mapRef}>
 
+    return <Window name="MapWindow" width={width} height={height} id={id}>
+        <div className="map-container"  ref={mapContainerRef} style={{height, width}} onDoubleClick={resetMap}>
+            <div className="map-info-layer" style={mapLayer}>
+                <Pin locX={170} locY={115} offset={offset} scale={scale} map={mapRef}/>
+            </div>
+            <div className="map">
+            <img src="./maps/southernThanalan.png"  ref={mapRef} style={style}/>
+            </div>
         </div>
     </Window>
 };
