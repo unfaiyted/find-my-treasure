@@ -2,6 +2,7 @@ import React, {useState, useContext, useLayoutEffect, useRef} from 'react';
 import Window from "./Window";
 import {useStateValue} from "../AppContext";
 import Pin from "./Pin"
+import MapPinLayer from "./MapPinLayer";
 
 const MapWindow = (props) => {
 
@@ -17,11 +18,6 @@ const MapWindow = (props) => {
     const [initial, setInitial] = useState({x:0,y:0});
     const [current, setCurrent] = useState({x:0,y:0});
     const [offset, setOffset] = useState({x:0,y:0});
-    const [mapLayer, setMapLayer] = useState({
-        width: 500,
-        height: 500
-    })
-
 
     const size = {
         w: 500,
@@ -34,16 +30,15 @@ const MapWindow = (props) => {
     const height=400;
 
     const style = {
-        // backgroundImage: `url("./maps/southernThanalan.png")`,
         backgroundRepeat: "no-repeat",
         backgroundSize: `100%`,
-        overflow: "hidden",
+         overflow: "hidden",
         transform: `translate3d(${current.x}px, ${current.y}px, 0) scale(${scale},${scale})`,
         transition: "transform 0.00s",
         width: "100%",
-        minHeight: height
+        minHeight: height,
+        border: "1px solid red"
     };
-
 
     const wheelZoom = (e) => {
         e.preventDefault();
@@ -54,14 +49,14 @@ const MapWindow = (props) => {
 
         delta = Math.max(-1,Math.min(1,delta))*-1; // cap the delta to [-1,1] for cross browser consistency
 
-        console.log(e)
+        //console.log(e)
 
         const zoomPoint = {
             x: e.pageX - container.left,
             y: e.pageY - container.top,
         }
 
-        console.log(zoomPoint);
+        //console.log(zoomPoint);
 
         const zoomTarget = {
             x: (zoomPoint.x - current.x)/scale,
@@ -70,8 +65,10 @@ const MapWindow = (props) => {
 
         // setZoomPoint(e.pageX = offset)
 
-        let currScale = (delta*zoomFactor*scale) + scale;
-        currScale = Math.max(1,Math.min(maxScale,currScale))
+        let currScale = (delta*zoomFactor) + scale;
+        currScale = parseFloat(Math.max(1,Math.min(maxScale,currScale)).toFixed(1));
+
+        console.log(currScale)
 
         let pos = {
             x:  -zoomTarget.x * currScale + zoomPoint.x,
@@ -96,16 +93,7 @@ const MapWindow = (props) => {
         setOffset({
             x: current.x,
             y: current.y
-        })
-
-
-        console.log(mapRef.current.getBoundingClientRect());
-
-        setMapLayer({
-            overflow: "hidden",
-            transform: `translate3d(${current.x}px, ${current.y}px, 0) scale(${scale},${scale}) `,
         });
-
     };
 
     const dragStart = (e) => {
@@ -141,14 +129,6 @@ const MapWindow = (props) => {
                 x: current.x,
                 y: current.y
             })
-
-            setMapLayer({
-                width: mapRef.current.getBoundingClientRect().width || width,
-                height: mapRef.current.getBoundingClientRect().height || height,
-                overflow: "hidden",
-                transform: `translate3d(${current.x}px, ${current.y}px, 0) `,
-            });
-
         }
     };
 
@@ -187,9 +167,7 @@ const MapWindow = (props) => {
 
     return <Window name="MapWindow" width={width} height={height} id={id}>
         <div className="map-container"  ref={mapContainerRef} style={{height, width}} onDoubleClick={resetMap}>
-            <div className="map-info-layer" style={mapLayer}>
-                <Pin locX={170} locY={115} offset={offset} scale={scale} map={mapRef}/>
-            </div>
+            <MapPinLayer mapRef={mapRef} offset={offset} scale={scale} current={current}/>
             <div className="map">
             <img src="./maps/southernThanalan.png"  ref={mapRef} style={style}/>
             </div>
