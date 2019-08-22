@@ -35,9 +35,10 @@ const MapWindow = (props) => {
          overflow: "hidden",
         transform: `translate3d(${current.x}px, ${current.y}px, 0) scale(${scale},${scale})`,
         transition: "transform 0.00s",
+        transformOrigin: "0 0",
         width: "100%",
         minHeight: height,
-        border: "1px solid red"
+        // border: "1px solid red"
     };
 
     const wheelZoom = (e) => {
@@ -58,6 +59,72 @@ const MapWindow = (props) => {
 
         //console.log(zoomPoint);
 
+
+        const zoomTarget = {
+            x: (zoomPoint.x - current.x)/scale,
+            y: (zoomPoint.y - current.y)/scale
+        }
+
+
+
+        // setZoomPoint(e.pageX = offset)
+
+        let currScale = (delta*zoomFactor) + scale;
+        currScale = parseFloat(Math.max(1,Math.min(maxScale,currScale)).toFixed(1));
+
+        console.log(currScale)
+
+
+        const ratio = 1 - (currScale / scale);
+
+        console.log("ratio", ratio, currScale, scale)
+
+        // let pos = {
+        //     x:  -zoomTarget.x * currScale + zoomPoint.x,
+        //     y:  -zoomTarget.y * currScale + zoomPoint.y,
+        // }
+
+        console.log(e)
+
+        let pos = {
+            x: current.x + (zoomPoint.x - current.x) * ratio,
+            y: current.y + (zoomPoint.y - current.y) * ratio
+        }
+
+        if(pos.x>0)
+            pos.x = 0;
+        if(pos.x+size.w*scale<size.w)
+            pos.x = -size.w*(scale-1)
+        if(pos.y>0)
+            pos.y = 0
+        if(pos.y+size.h*scale<size.h)
+            pos.y = -size.h*(scale-1)
+
+        setScale(currScale);
+        setCurrent({
+            x: pos.x,
+            y: pos.y,
+        })
+
+        setOffset({
+            x: current.x,
+            y: current.y
+        });
+    };
+
+    const zoomIn = (e) => {
+        e.preventDefault();
+
+        const container = mapContainerRef.current.getBoundingClientRect();
+        //console.log(e)
+
+        const zoomPoint = {
+            x: e.pageX - container.left,
+            y: e.pageY - container.top,
+        }
+
+        //console.log(zoomPoint);
+
         const zoomTarget = {
             x: (zoomPoint.x - current.x)/scale,
             y: (zoomPoint.y - current.y)/scale
@@ -65,7 +132,7 @@ const MapWindow = (props) => {
 
         // setZoomPoint(e.pageX = offset)
 
-        let currScale = (delta*zoomFactor) + scale;
+        let currScale = (zoomFactor*5) + scale;
         currScale = parseFloat(Math.max(1,Math.min(maxScale,currScale)).toFixed(1));
 
         console.log(currScale)
@@ -95,6 +162,7 @@ const MapWindow = (props) => {
             y: current.y
         });
     };
+
 
     const dragStart = (e) => {
         e.preventDefault();
@@ -165,8 +233,14 @@ const MapWindow = (props) => {
     });
 
 
+    useLayoutEffect(() => {
+        if (scale === 1) {
+            resetMap()
+        }
+    }, [scale]);
+
     return <Window name="MapWindow" width={width} height={height} id={id}>
-        <div className="map-container"  ref={mapContainerRef} style={{height, width}} onDoubleClick={resetMap}>
+        <div className="map-container"  ref={mapContainerRef} style={{height, width}} onDoubleClick={zoomIn}>
             <MapPinLayer mapRef={mapRef} offset={offset} scale={scale} current={current}/>
             <div className="map">
             <img src="./maps/southernThanalan.png"  ref={mapRef} style={style}/>

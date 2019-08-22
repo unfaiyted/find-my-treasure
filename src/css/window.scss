@@ -12,6 +12,7 @@
   border-radius: 6px;
   .window {
     position: relative;
+
     box-shadow: inset 0px 0px 26px 2px rgba(0,0,0,0.53);
     .header{
       position: absolute;
@@ -42,14 +43,15 @@
 
 
 .window-container{
-  overflow: hidden;
+  //overflow: hidden;
   .map-container{
     overflow: hidden;
+    position: relative;
     z-index: 3;
     .map-info-layer{
       overflow: hidden;
       z-index: 2;
-      border: 1px solid red;
+      //border: 1px solid red;
     }
     .map{
 

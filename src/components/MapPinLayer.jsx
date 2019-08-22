@@ -40,7 +40,8 @@ const MapPinLayer = (props) => {
             height: (currMap.height/scale),
             position: "absolute",
             overflow: "hidden",
-            transform: `translate3d(${pos.x}px, ${pos.y}px ,0) scale(${scale})`
+            transform: `translate3d(${pos.x}px, ${pos.y}px ,0) scale(${scale})`,
+            transformOrigin: "0 0"
         });
 
         setLastScale(scale);

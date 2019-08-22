@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be50aef-9aee-4c30-a571-3ace0cc1c10a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/MapPinLayer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MapPinLayer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapPinLayer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MapWindow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapWindow.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pin.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/window.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/window.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,7 +86,7 @@
       <updated>1566044832922</updated>
       <workItem from="1566044835893" duration="45651000" />
       <workItem from="1566172219890" duration="28949000" />
-      <workItem from="1566417766449" duration="7182000" />
+      <workItem from="1566417766449" duration="9211000" />
     </task>
     <servers />
   </component>
