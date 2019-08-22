@@ -13,7 +13,9 @@ const Window = (props) => {
         width,
         height,
         backgroundImage,
-        children
+        children,
+        onClick,
+        active
     } = props;
 
     let defaultX = (window.innerWidth / 2) - (width/2);
@@ -50,7 +52,7 @@ const Window = (props) => {
         onStop={handleStop}
         // scale={1}
     >
-        <div className="window-container" style={style}>
+        <div className="window-container" style={style} onClick={onClick} active={active}>
             <div className="window" >
                 <div className="header">
                     <h2>{name}</h2>

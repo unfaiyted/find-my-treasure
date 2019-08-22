@@ -1,0 +1,23 @@
+
+
+.map-pin {
+  img {
+    width: 18px;
+    height: 18px;
+  }
+  .info {
+    display: none;
+  }
+  &:hover {
+    .info {
+      display: inline;
+      position: fixed;
+      background: rgba(255,255,255,0.7);
+      margin-left: 15px;
+      border-radius: 4px;
+      font-size: 12px;
+      padding: 5px;
+    }
+  }
+
+}

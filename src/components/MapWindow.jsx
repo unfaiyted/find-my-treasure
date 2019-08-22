@@ -24,7 +24,7 @@ const MapWindow = (props) => {
         h: 500
     };
 
-    const { id } = props;
+    const { id, onClick, active } = props;
 
     const width=500;
     const height=400;
@@ -41,38 +41,39 @@ const MapWindow = (props) => {
         // border: "1px solid red"
     };
 
-    const wheelZoom = (e) => {
+    const wheelZoom = (e, zoomMultiplier = 1) => {
         e.preventDefault();
+
+        console.log('multiplier',zoomMultiplier, e.deltaY);
 
         const container = mapContainerRef.current.getBoundingClientRect();
 
-        let delta = e.deltaY;
+
+        let delta = (e.deltaY)? e.deltaY : 1;
 
         delta = Math.max(-1,Math.min(1,delta))*-1; // cap the delta to [-1,1] for cross browser consistency
+        delta = (e.deltaY) ? delta : 1;
 
         //console.log(e)
 
+        console.log('event', e.pageX);
+
         const zoomPoint = {
-            x: e.pageX - container.left,
-            y: e.pageY - container.top,
+            x: e.clientX - container.left,
+            y: e.clientY - container.top,
         }
 
         //console.log(zoomPoint);
 
-
-        const zoomTarget = {
-            x: (zoomPoint.x - current.x)/scale,
-            y: (zoomPoint.y - current.y)/scale
-        }
-
-
-
         // setZoomPoint(e.pageX = offset)
+        const zoomTotal = zoomMultiplier*zoomFactor;
 
-        let currScale = (delta*zoomFactor) + scale;
+        console.log('zoomTotal',zoomTotal, delta)
+
+        let currScale = (delta*zoomTotal) + scale;
         currScale = parseFloat(Math.max(1,Math.min(maxScale,currScale)).toFixed(1));
 
-        console.log(currScale)
+        console.log('currscale',currScale)
 
 
         const ratio = 1 - (currScale / scale);
@@ -83,8 +84,6 @@ const MapWindow = (props) => {
         //     x:  -zoomTarget.x * currScale + zoomPoint.x,
         //     y:  -zoomTarget.y * currScale + zoomPoint.y,
         // }
-
-        console.log(e)
 
         let pos = {
             x: current.x + (zoomPoint.x - current.x) * ratio,
@@ -112,56 +111,6 @@ const MapWindow = (props) => {
         });
     };
 
-    const zoomIn = (e) => {
-        e.preventDefault();
-
-        const container = mapContainerRef.current.getBoundingClientRect();
-        //console.log(e)
-
-        const zoomPoint = {
-            x: e.pageX - container.left,
-            y: e.pageY - container.top,
-        }
-
-        //console.log(zoomPoint);
-
-        const zoomTarget = {
-            x: (zoomPoint.x - current.x)/scale,
-            y: (zoomPoint.y - current.y)/scale
-        }
-
-        // setZoomPoint(e.pageX = offset)
-
-        let currScale = (zoomFactor*5) + scale;
-        currScale = parseFloat(Math.max(1,Math.min(maxScale,currScale)).toFixed(1));
-
-        console.log(currScale)
-
-        let pos = {
-            x:  -zoomTarget.x * currScale + zoomPoint.x,
-            y:  -zoomTarget.y * currScale + zoomPoint.y,
-        }
-
-        if(pos.x>0)
-            pos.x = 0;
-        if(pos.x+size.w*scale<size.w)
-            pos.x = -size.w*(scale-1)
-        if(pos.y>0)
-            pos.y = 0
-        if(pos.y+size.h*scale<size.h)
-            pos.y = -size.h*(scale-1)
-
-        setScale(currScale);
-        // setCurrent({
-        //     x: pos.x,
-        //     y: pos.y,
-        // })
-
-        setOffset({
-            x: current.x,
-            y: current.y
-        });
-    };
 
 
     const dragStart = (e) => {
@@ -214,6 +163,12 @@ const MapWindow = (props) => {
         setScale(1)
     };
 
+    const onDoubleClickEvent = (e) => {
+        e.persist();
+        console.log("double",e)
+        wheelZoom(e, 2 )
+    }
+
     useLayoutEffect(() => {
         const {current} = mapContainerRef;
         current.addEventListener("wheel", wheelZoom);
@@ -232,17 +187,16 @@ const MapWindow = (props) => {
         }
     });
 
-
     useLayoutEffect(() => {
         if (scale === 1) {
             resetMap()
         }
     }, [scale]);
 
-    return <Window name="MapWindow" width={width} height={height} id={id}>
-        <div className="map-container"  ref={mapContainerRef} style={{height, width}} onDoubleClick={zoomIn}>
+    return <Window name="MapWindow" width={width} height={height} id={id} onClick={onClick} active={active}>
+        <div className="map-container"  ref={mapContainerRef} style={{height, width}}  onDoubleClick={onDoubleClickEvent}>
             <MapPinLayer mapRef={mapRef} offset={offset} scale={scale} current={current}/>
-            <div className="map">
+            <div className="map" >
             <img src="./maps/southernThanalan.png"  ref={mapRef} style={style}/>
             </div>
         </div>

@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be50aef-9aee-4c30-a571-3ace0cc1c10a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/css/pin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MapPinLayer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapPinLayer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MapWindow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapWindow.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/window.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/window.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuLocations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuLocations.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuMapFinder.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuMapFinder.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pin.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Window.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Window.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WindowManager.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WindowManager.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/menu.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +93,7 @@
       <updated>1566044832922</updated>
       <workItem from="1566044835893" duration="45651000" />
       <workItem from="1566172219890" duration="28949000" />
-      <workItem from="1566417766449" duration="9211000" />
+      <workItem from="1566417766449" duration="15154000" />
     </task>
     <servers />
   </component>

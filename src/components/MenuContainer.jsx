@@ -12,7 +12,9 @@ const MenuContainer = (props) => {
         id,
         width,
         height,
-        children
+        children,
+        onClick,
+        active
     } = props;
 
     let defaultX = (window.innerWidth / 2) - 225;
@@ -41,6 +43,8 @@ const MenuContainer = (props) => {
         localStorage.setItem(id, JSON.stringify(pos));
     };
 
+    const activeClass = (active) ? "active" : 'not-active';
+
     return <Draggable
         defaultPosition={{x: pos.x, y: pos.y}}
         position={null}
@@ -49,7 +53,7 @@ const MenuContainer = (props) => {
         onStop={handleStop}
         // scale={1}
        >
-        <div className="menu-container" style={style}>
+        <div className={["menu-container", activeClass].join(" ")} style={style} onClick={onClick}>
             <div className="menu" >
                 <div className="header">
                     <h2>{name}</h2>

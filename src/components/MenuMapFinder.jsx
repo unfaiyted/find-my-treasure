@@ -11,7 +11,7 @@ const MenuMapFinder = (props) => {
     const  [{chosenLocation}, dispatch] = useStateValue();
     const [selected, setSelected] = useState(1);
 
-    const { id } = props;
+    const { id, active, onClick } = props;
 
 
     const getSelected = (id) => {
@@ -19,7 +19,7 @@ const MenuMapFinder = (props) => {
     };
 
 
-    return <MenuContainer name="FindMyMap" width={350} height={330} id={id}>
+    return <MenuContainer name="FindMyMap" width={350} height={330} id={id} active={active} onClick={onClick}>
 
         <div className="menu-group center">
             <div className="info">{chosenLocation}</div>
