@@ -5,6 +5,7 @@ import {StateProvider} from "./AppContext";
 import {loadConfiguration} from "./app-config";
 import WindowManager from "./components/WindowManager";
 import {reducer} from "./utils/reducer";
+import HotkeyManager from "./components/HotkeyManager";
 
 function App() {
     const config = loadConfiguration();
@@ -41,6 +42,7 @@ function App() {
                {/* {isMapOpen && <TreasureMap/>}*/}
                {/* {isMenuOpen && <MenuLocations onClick={toggleMenu}/>}*/}
                {/*<MenuMapFinder onClick={toggleMapFinder}/>*/}
+               <HotkeyManager/>
                <WindowManager/>
             </div>
         </StateProvider>

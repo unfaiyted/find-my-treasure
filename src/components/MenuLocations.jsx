@@ -9,11 +9,7 @@ import Window from "./Window"
 let MenuLocations;
 MenuLocations = (props) => {
 
-    const {
-        onClick,
-        id,
-        active
-    } = props;
+    const { onClick, id, active } = props;
 
     const [activeGroup, setGroup] = useState("All");
 
