@@ -1,6 +1,6 @@
 
 
-.menu-group-list {
+.menu-list {
   padding-left:20px;
  text-align: left;
   color: #fff4e0;
@@ -17,11 +17,13 @@
     }
 
     .name {
+      cursor: pointer;
       margin-left: 5px;
     }
   }
 
   .expansion {
+    pointer-events: none;
     font-family: 'Oswald', sans-serif;
     background-color: #7b766f;
     -webkit-border-radius: 6px;

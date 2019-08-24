@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import PropTypes from "prop-types"
 import "../css/icon.scss";
 import Draggable from "react-draggable";
-import { useWindow } from "./useWindow";
+import { useWindow } from "./hooks/use-window";
 
 const Icon = (props) => {
 

@@ -1,10 +1,9 @@
-import React, {useState, useContext} from 'react';
-import MenuContainer from "./MenuContainer";
+import React, {useState} from 'react';
 import TreasureMap from "./TreasureMap";
 import {useStateValue} from "../AppContext";
 import MapSelector from "./MapSelector";
-import MenuItem from "./MenuItem";
-
+import MenuHeaderItem from "./MenuHeaderItem";
+import Window from "./Window"
 
 const MenuMapFinder = (props) => {
 
@@ -19,20 +18,16 @@ const MenuMapFinder = (props) => {
     };
 
 
-    return <MenuContainer name="FindMyMap" width={350} height={330} id={id} active={active} onClick={onClick}>
-
+    return <Window name="FindMyMap" width={350} height={330} id={id} active={active} onClick={onClick}>
         <div className="menu-group center">
             <div className="info">{chosenLocation}</div>
-            <MenuItem text="Gliderskin"/>
-            <MenuItem text="Zonureskin"/>
+            <MenuHeaderItem text="Gliderskin"/>
+            <MenuHeaderItem text="Zonureskin"/>
         </div>
-
         <hr/>
-
-
        <TreasureMap id={selected} location={chosenLocation}/>
         <MapSelector selected={getSelected}/>
-    </MenuContainer>
+    </Window>
 };
 
 MenuMapFinder.propTypes =  {

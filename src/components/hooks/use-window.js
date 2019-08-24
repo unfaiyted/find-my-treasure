@@ -1,5 +1,5 @@
 import React, {useContext, useState} from 'react';
-import { useStateValue} from "../AppContext";
+import { useStateValue} from "../../AppContext";
 
 
 export const useWindow = (window) => {
@@ -25,7 +25,8 @@ export const useWindow = (window) => {
             dispatch({
                 type: 'toggleWindow',
                 id: active.id,
-                isOpen: true
+                isOpen: true,
+                isActive: true
             })
         },
         close: () => {

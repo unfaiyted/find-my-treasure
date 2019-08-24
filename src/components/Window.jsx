@@ -2,7 +2,8 @@ import React, {useState, useEffect} from 'react';
 import Draggable from "react-draggable";
 import PropTypes from "prop-types";
 import "../css/window.scss";
-import {useWindow} from "./useWindow";
+import "../css/menu.scss";
+import {useWindow} from "./hooks/use-window";
 
 
 const Window = (props) => {
@@ -12,7 +13,7 @@ const Window = (props) => {
         id,
         width,
         height,
-        backgroundImage,
+        type,
         children,
         onClick,
         active
@@ -31,7 +32,7 @@ const Window = (props) => {
     const [pos, setPos] = useState({x: defaultX, y: defaultY});
 
     const style = {
-        backgroundImage: (backgroundImage) ? `url("./${backgroundImage}")`: `none`,
+        backgroundImage: `url("./${type}-bg.png")`,
         width,
         height,
     };
@@ -44,6 +45,8 @@ const Window = (props) => {
         localStorage.setItem(id, JSON.stringify(pos));
     };
 
+    const activeClass = (active) ? "active" : 'not-active';
+
     return <Draggable
         defaultPosition={{x: pos.x, y: pos.y}}
         position={null}
@@ -52,8 +55,9 @@ const Window = (props) => {
         onStop={handleStop}
         // scale={1}
     >
-        <div className="window-container" style={style} onClick={onClick} active={active}>
-            <div className="window" >
+        <div className={[`${type}-container`, activeClass].join(" ")} style={style} onClick={onClick}>
+
+            <div className={type} >
                 <div className="header">
                     <h2>{name}</h2>
                     <div className="close" onClick={toggle}><img src="./exit.png" alt="exit"/></div>
@@ -73,7 +77,8 @@ Window.propTypes =  {
 };
 
 Window.defaultProps = {
-    name: "Locations"
+    name: "Window",
+    type: "menu"
 };
 
 export default Window;

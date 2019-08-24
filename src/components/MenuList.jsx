@@ -1,10 +1,10 @@
-import React, {useContext} from "react";
+import React from "react";
 import {EXPANSIONS, ZONE} from "../utils/constants";
-import "../css/menu-group-list.scss"
+import "../css/menu-list.scss"
 import { useStateValue} from "../AppContext";
-import {useWindow} from "./useWindow";
+import {useWindow} from "./hooks/use-window";
 
-const MenuGroupList = (props) => {
+const MenuList = (props) => {
     const {group} = props;
     const  [{chosenLocation}, dispatch] = useStateValue();
 
@@ -26,7 +26,7 @@ const MenuGroupList = (props) => {
    };
 
     return (
-        <div className="menu-group-list">
+        <div className="menu-list">
             {displayedZones.map((loc,i) => {
                 let displayExp = false;
                 if(expansionName !== loc.expansion) {
@@ -49,4 +49,4 @@ const MenuGroupList = (props) => {
 };
 
 
-export default MenuGroupList;
+export default MenuList;

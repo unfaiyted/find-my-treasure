@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
-import MenuItem  from "./MenuItem"
+import PropTypes from "prop-types";
+import MenuHeaderItem  from "./MenuHeaderItem"
 import "../css/menu.scss";
-import MenuGroupList from "./MenuGroupList";
-import MenuContainer from "./MenuContainer";
+import MenuList from "./MenuList";
+import Window from "./Window"
+
 
 let MenuLocations;
 MenuLocations = (props) => {
@@ -15,23 +17,24 @@ MenuLocations = (props) => {
 
     const [activeGroup, setGroup] = useState("All");
 
-    return <MenuContainer name="Locations" onClick={onClick} width={350} height={540} id={id} active={active}>
+    return <Window name="Locations" onClick={onClick} width={350} height={540} id={id} active={active}>
                 <div className="menu-group">
-                    <MenuItem text="All" onClick={() => setGroup("All")} activeGroup={activeGroup}/>
-                    <MenuItem text="HW" onClick={() => setGroup("HW")} activeGroup={activeGroup}/>
-                    <MenuItem text="SB" onClick={() => setGroup("SB")} activeGroup={activeGroup}/>
-                    <MenuItem text="ShB" onClick={() => setGroup("ShB")} activeGroup={activeGroup}/>
+                    <MenuHeaderItem text="All" onClick={() => setGroup("All")} activeGroup={activeGroup}/>
+                    <MenuHeaderItem text="HW" onClick={() => setGroup("HW")} activeGroup={activeGroup}/>
+                    <MenuHeaderItem text="SB" onClick={() => setGroup("SB")} activeGroup={activeGroup}/>
+                    <MenuHeaderItem text="ShB" onClick={() => setGroup("ShB")} activeGroup={activeGroup}/>
                 </div>
 
                 <hr/>
 
                 <div className="menu-selected-group">
-                    <MenuGroupList group={activeGroup}/>
+                    <MenuList group={activeGroup}/>
                 </div>
-      </MenuContainer>
+      </Window>
 };
 
 MenuLocations.propTypes =  {
+ onClick: PropTypes.func,
 
 };
 

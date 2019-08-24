@@ -34,8 +34,6 @@ const MapPinLayer = (props) => {
         }
 
         setStyle({
-          //  top: currMap.top,
-           // left: currMap.left,
             width: (currMap.width/scale),
             height: (currMap.height/scale),
             position: "absolute",
@@ -49,11 +47,11 @@ const MapPinLayer = (props) => {
 
     return (
         <div className="map-info-layer" style={style} ref={mapInfoRef}>
-        <Pin locX={0} locY={115} offset={offset} scale={scale} map={mapRef}/>
-            <Pin icon="fate-icon" locX={400} locY={115} offset={offset} scale={scale} map={mapRef}/>
-            <Pin locX={200} locY={125} offset={offset} scale={scale} map={mapRef}/>
-            <Pin locX={120} locY={315} offset={offset} scale={scale} map={mapRef}/>
-
+        <Pin loc={{x:0,y:116}} offset={offset} scale={scale} map={mapRef}/>
+            <Pin icon="fate-icon" loc={{x:400,y:115}} offset={offset} scale={scale} map={mapRef}/>
+            <Pin loc={{x:200,y:125}} offset={offset} scale={scale} map={mapRef}/>
+            <Pin loc={{x:120,y:315}} offset={offset} scale={scale} map={mapRef}/>
+            <Pin icon="x" loc={{x:300,y:315}} offset={offset} scale={scale} map={mapRef}/>
             {children}
         </div>)
 }

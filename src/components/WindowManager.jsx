@@ -10,12 +10,13 @@ const WindowManager = () => {
     let openWindows = [];
 
     for(const key in windows) {
-        console.log(key);
+        // console.log(key);
         if(windows[key].isOpen) openWindows.push(windows[key]);
+        if(windows[key].isActive) setActive(key);
     }
 
     const setActiveWindow = (id) => {
-        console.log(id)
+        // console.log(id)
         setActive(id)
     };
 

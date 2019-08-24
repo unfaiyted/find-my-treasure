@@ -1,40 +1,34 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import PropTypes from "prop-types";
 import '../css/pin.scss';
 
 const Pin = (props) => {
 
-    const {locX, locY, scale, icon} = props;
-
-    const [lastScale, setLastScale] = useState(1);
-
-    useEffect(() => {
-
-        const antiScale = 1/scale
-
-        setLastScale(scale)
-
-    }, [scale]);
+    const {loc, scale, icon} = props;
 
     const style = {
-        transform: `translate(${locX}px, ${locY}px) scale(${1/(scale*0.7)})`,
+        transform: `translate(${loc.x}px, ${loc.y}px) scale(${1/(scale*0.7)})`,
         transition: "transform 0.2s ease-in",
         position: 'fixed'
     };
 
     return (
         <div className="map-pin" style={style}>
-            <div className="info">Map Location</div>
+            <div className="info">{loc.x}x {loc.y}y</div>
             <img src={`./${icon}.png`} />
         </div>)
 };
 
 Pin.propTypes = {
-    icon: PropTypes.string
+    icon: PropTypes.string,
+    loc: PropTypes.shape({
+        x: PropTypes.number,
+        y: PropTypes.number
+    })
 }
 
 Pin.defaultProps = {
-    icon: "pin"
+    icon: "x"
 }
 
 
