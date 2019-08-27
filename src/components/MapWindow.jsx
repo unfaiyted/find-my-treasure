@@ -2,6 +2,8 @@ import React, {useState, useEffect, useRef} from 'react';
 import Window from "./Window";
 import MapPinLayer from "./MapPinLayer";
 import "../css/map.scss";
+import {useStateValue} from "../AppContext";
+import {tryFn} from "../utils/utils";
 
 const MapWindow = (props) => {
 
@@ -17,11 +19,14 @@ const MapWindow = (props) => {
     const [current, setCurrent] = useState({x:0,y:0});
     const [offset, setOffset] = useState({x:0,y:0});
     const [pointer, setPointer] = useState({x:0,y:0});
+    const [{player}, dispatch] = useStateValue();
 
     const { id, onClick, active } = props;
 
     const width=500;
     const height=400;
+
+    const playerPos = tryFn(() => player.pos, {x:0,y:0,z:0});
 
     const style = {
         backgroundRepeat: "no-repeat",
@@ -34,8 +39,10 @@ const MapWindow = (props) => {
         minHeight: height,
     };
 
-    const wheelZoom = (e, zoomMultiplier = 1) => {
+    const wheelZoom = (e, zoomMultiplier) => {
         e.preventDefault();
+
+        zoomMultiplier = (zoomMultiplier) ? zoomMultiplier : 1;
 
         const container = mapContainerRef.current.getBoundingClientRect();
 
@@ -167,9 +174,10 @@ const MapWindow = (props) => {
         <div className="map-container"  ref={mapContainerRef} style={{height, width}}  onDoubleClick={onDoubleClickEvent}>
                     <MapPinLayer mapRef={mapRef} offset={offset} scale={scale} current={current}/>
                     <div className="map" >
-                    <img src="./maps/southernThanalan.png"  ref={mapRef} style={style}/>
+                    <img src="./maps/lakeland.png"  ref={mapRef} style={style}/>
                     </div>
         </div>
+        <div className="map-player-location">X:{playerPos.x} Y:{playerPos.y} Z:{playerPos.z} </div>
     </Window>
 };
 

@@ -1,10 +1,11 @@
 import React, {useContext, useEffect, useState} from 'react';
 import { useStateValue} from "../AppContext";
+import {getPlayerData} from "../utils/actions";
 
 
 const WindowManager = () => {
 
-    const [{windows}] = useStateValue();
+    const [{windows}, dispatch] = useStateValue();
     const [active, setActive] = useState(null);
 
     let openWindows = [];
@@ -19,6 +20,18 @@ const WindowManager = () => {
         // console.log(id)
         setActive(id)
     };
+
+
+    const updatePlayerData = (e) => {
+        dispatch(getPlayerData(e))
+    }
+
+    useEffect(() => {
+        document.addEventListener('onPlayerChangedEvent', updatePlayerData);
+        return () => {
+            document.removeEventListener('onPlayerChangedEvent', updatePlayerData);
+        }
+    });
 
 
     return (

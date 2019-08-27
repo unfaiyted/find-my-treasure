@@ -14,6 +14,21 @@ document.addEventListener('onOverlayStateUpdate', function(e) {
 });
 
 
+document.addEventListener('onPlayerChangedEvent', function(e) {
+    console.log('playerchangedevent',e) //can detect player movement
+
+});
+
+document.addEventListener('onZoneChangedEvent', function(e) {
+    console.log('zoneChanged',e)
+});
+document.addEventListener('onLogEvent', function(e) {
+    //current log happenings
+    console.log('logEvent',e)
+});
+
+
+
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

@@ -7,7 +7,7 @@ const Pin = (props) => {
     const {loc, scale, icon} = props;
 
     const style = {
-        transform: `translate(${loc.x}px, ${loc.y}px) scale(${1/(scale*0.7)})`,
+        transform: `translate(${loc.x-8}px, ${loc.y-8}px) scale(${1/(scale*0.7)})`,
         transition: "transform 0.2s ease-in",
         position: 'fixed'
     };

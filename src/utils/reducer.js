@@ -1,4 +1,4 @@
-
+import {UPDATE_PLAYER_DATA} from "./actions";
 
 export const reducer = (state, action) => {
     switch (action.type) {
@@ -18,6 +18,14 @@ export const reducer = (state, action) => {
                   }
                 }
             };
+        case UPDATE_PLAYER_DATA:
+            return {
+                ...state,
+                player: {
+                    ...state.player,
+                    ...action.data
+                }
+            }
 
         default:
             return state;

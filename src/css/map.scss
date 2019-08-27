@@ -9,3 +9,10 @@
   color: #e9e9e9;
   font-style: italic;
 }
+
+.map-player-location {
+  position: fixed;
+  z-index: 12;
+  margin-left: 50%;
+  color: #d7c486;
+}

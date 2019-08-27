@@ -1,6 +1,7 @@
 import Pin from "./Pin";
 import React, {useEffect, useState,useRef} from "react";
-
+import {useStateValue} from "../AppContext";
+import {tryFn} from "../utils/utils";
 
 const MapPinLayer = (props) => {
     const {offset, mapRef, scale, children, current} = props;
@@ -8,6 +9,8 @@ const MapPinLayer = (props) => {
     const mapInfoRef = useRef();
     const [style, setStyle] = useState({});
     const [lastScale, setLastScale] = useState(1);
+    const [{player}, dispatch] = useStateValue();
+
 
 
     useEffect(() => {
@@ -45,8 +48,18 @@ const MapPinLayer = (props) => {
         setLastScale(scale);
     }, [scale, current]);
 
+
+    let playerPos = tryFn(() => player.pos, {x:0,y:0,z:0});
+    playerPos = {
+        x: (playerPos.x+1000)/4,
+        y: (playerPos.y+1000)/4,
+        z: playerPos.z
+    }
+
     return (
         <div className="map-info-layer" style={style} ref={mapInfoRef}>
+            <Pin icon="pin" loc={{x:playerPos.x,y:playerPos.y}} offset={offset} scale={scale} map={mapRef}/>
+            <Pin loc={{x:200,y:125}} offset={offset} scale={scale} map={mapRef}/>
         <Pin loc={{x:0,y:116}} offset={offset} scale={scale} map={mapRef}/>
             <Pin icon="fate-icon" loc={{x:400,y:115}} offset={offset} scale={scale} map={mapRef}/>
             <Pin loc={{x:200,y:125}} offset={offset} scale={scale} map={mapRef}/>
