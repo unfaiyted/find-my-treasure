@@ -26,7 +26,20 @@ const MapWindow = (props) => {
     const width=500;
     const height=400;
 
-    const playerPos = tryFn(() => player.pos, {x:0,y:0,z:0});
+    let playerPos = tryFn(() => player.pos, {x:0,y:0,z:0});
+
+    playerPos = {
+        x: (playerPos.x+1000)/46.72897196,
+        y: (playerPos.y+1000)/46.72897196,
+        z: (playerPos.z/2)/46.72897196
+    }
+
+    playerPos = {
+        x: playerPos.x.toFixed(1),
+        y: playerPos.y.toFixed(1),
+        z: playerPos.z.toFixed(1)
+    }
+
 
     const style = {
         backgroundRepeat: "no-repeat",
@@ -177,7 +190,7 @@ const MapWindow = (props) => {
                     <img src="./maps/lakeland.png"  ref={mapRef} style={style}/>
                     </div>
         </div>
-        <div className="map-player-location">X:{playerPos.x} Y:{playerPos.y} Z:{playerPos.z} </div>
+        <div className="map-player-location">X: {playerPos.x} Y: {playerPos.y} Z: {playerPos.z} </div>
     </Window>
 };
 
