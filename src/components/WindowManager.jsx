@@ -33,6 +33,7 @@ const WindowManager = () => {
         }
     });
 
+    console.log(openWindows);
 
     return (
         <React.Fragment>

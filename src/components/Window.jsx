@@ -28,6 +28,9 @@ const Window = (props) => {
         defaultY = newPos.y;
     }
 
+
+    console.log("id", id)
+
     const { toggle } = useWindow(id);
     const [pos, setPos] = useState({x: defaultX, y: defaultY});
 

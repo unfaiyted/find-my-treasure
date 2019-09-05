@@ -1,27 +1,30 @@
-import MenuMapFinder from "./components/menus/MenuMapFinder";
-import MenuLocations from "./components/menus/MenuLocations";
+import MapFinderMenu from "./components/menus/map-finder-menu";
+import LocationsMenu from "./components/menus/locations-menu";
 import MapWindow from "./components/map/MapWindow";
+import ActionsMenu from "./components/menus/actions-menu";
 
 export const loadConfiguration = () => {
 
-    const mapDefault = (localStorage.getItem("mapOpen") === "true");
-    const menuDefault = (localStorage.getItem("menuOpen") === "true");
-
     const windows = {
-        menuMapFinder: {
-            id: 'menuMapFinder',
-            component: MenuMapFinder,
+        mapFinderMenu: {
+            id: 'mapFinderMenu',
+            component: MapFinderMenu,
             isOpen: false,
         },
-        menuLocations: {
-            id: "menuLocations",
-            component: MenuLocations,
+        locationsMenu: {
+            id: "locationsMenu",
+            component: LocationsMenu,
             isOpen: true,
         },
         map: {
             id: "map",
             component: MapWindow,
             isOpen: true,
+        },
+        actionsMenu: {
+            id: "actionsMenu",
+            component: ActionsMenu,
+            isOpen: false,
         }
     };
 

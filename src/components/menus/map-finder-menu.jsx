@@ -5,7 +5,7 @@ import MapSelector from "../ui/CarouselSelector";
 import HeaderButton from "../ui/HeaderButton";
 import Window from "../Window"
 
-const MenuMapFinder = (props) => {
+const MapFinderMenu = (props) => {
 
     const  [{chosenLocation}, dispatch] = useStateValue();
     const [selected, setSelected] = useState(1);
@@ -30,12 +30,12 @@ const MenuMapFinder = (props) => {
     </Window>
 };
 
-MenuMapFinder.propTypes =  {
+MapFinderMenu.propTypes =  {
 
 };
 
-MenuMapFinder.defaultProps = {
+MapFinderMenu.defaultProps = {
     name: "Locations"
 };
 
-export default MenuMapFinder;
+export default MapFinderMenu;

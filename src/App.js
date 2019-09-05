@@ -16,8 +16,8 @@ function App() {
               <header className="App-header">
 
               </header>
-                <Icon window="menuLocations" name="signs"/>
-                <Icon window="menuLocations" name="main" width={30} height={30} noOverlay/>
+                <Icon window="locationsMenu" name="signs"/>
+                <Icon window="actionsMenu" name="main" width={30} height={30} noOverlay/>
                <HotkeyManager/>
                <WindowManager/>
             </div>

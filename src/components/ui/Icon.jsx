@@ -11,6 +11,8 @@ const Icon = (props) => {
 
     const win = useWindow(window);
 
+    console.log(win);
+
     let defaultX = 0;
     let defaultY = 0;
 

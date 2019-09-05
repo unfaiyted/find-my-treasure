@@ -1,12 +1,12 @@
 
 @mixin cursor($name) {
   @if $name == primary {
-     cursor: url('../imgs/cursors/arr-primary48.png') 15 15, auto;
+     cursor: url('../imgs/cursors/arr-primary48.png') 15 10, auto;
   } @else if($name == pointer) {
-     cursor: url('../imgs/cursors/arr-link48.png') 15 15, pointer;
+     cursor: url('../imgs/cursors/arr-link48.png') 20 10, pointer;
   } @else if($name == hand) {
-    cursor: url('../imgs/cursors/arr-hand48.png') 15 15, pointer;
+    cursor: url('../imgs/cursors/arr-hand48.png') 20 10, pointer;
   } @else if($name == closed-hand) {
-    cursor: url('../imgs/cursors/arr-closed-hand48.png') 15 15, pointer;
+    cursor: url('../imgs/cursors/arr-closed-hand48.png') 20 10, pointer;
   }
 }

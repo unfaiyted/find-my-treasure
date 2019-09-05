@@ -6,8 +6,7 @@ import LocationList from "../ui/LocationList";
 import Window from "../Window"
 
 
-let MenuLocations;
-MenuLocations = (props) => {
+const LocationsMenu = (props) => {
 
     const { onClick, id, active } = props;
 
@@ -29,13 +28,13 @@ MenuLocations = (props) => {
       </Window>
 };
 
-MenuLocations.propTypes =  {
+LocationsMenu.propTypes =  {
  onClick: PropTypes.func,
 
 };
 
-MenuLocations.defaultProps = {
-    name: "Locations"
+LocationsMenu.defaultProps = {
+    name: "Locations",
 };
 
-export default MenuLocations;
+export default LocationsMenu;

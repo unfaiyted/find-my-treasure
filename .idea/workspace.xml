@@ -2,1178 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be50aef-9aee-4c30-a571-3ace0cc1c10a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/.vs/XIV extractor/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/.vs/XIV extractor/v16/Server/sqlite3/db.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/.vs/XIV extractor/v16/Server/sqlite3/storage.ide" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/.vs/XIV extractor/v16/Server/sqlite3/storage.ide-shm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/.vs/XIV extractor/v16/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/App.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/Extractor.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/Localize.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AOZArrangement.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AOZBoss.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AOZContent.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AOZContentBriefingBNpc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Achievement.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AchievementCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AchievementHideCondition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AchievementKind.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Action.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ActionCastTimeline.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ActionCastVFX.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ActionCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ActionComboRoute.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ActionIndirection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ActionParam.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ActionProcStatus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ActionTimeline.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ActionTimelineMove.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ActionTimelineReplace.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ActionTransient.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ActivityFeedButtons.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ActivityFeedCaptions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ActivityFeedGroupCaptions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ActivityFeedImages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Addon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AddonHud.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Adventure.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AdventureExPhase.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AetherCurrent.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AetherCurrentCompFlgSet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AetherialWheel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Aetheryte.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AetheryteSystemDefine.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AirshipExplorationLevel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AirshipExplorationLog.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AirshipExplorationParamType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AirshipExplorationPart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AirshipExplorationPoint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AnimaWeapon5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AnimaWeapon5Param.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AnimaWeapon5PatternGroup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AnimaWeapon5SpiritTalk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AnimaWeapon5SpiritTalkParam.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AnimaWeapon5TradeItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AnimaWeaponFUITalk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AnimaWeaponFUITalkParam.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AnimaWeaponIcon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AnimaWeaponItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AozAction.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AozActionTransient.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AquariumFish.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AquariumWater.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ArrayEventHandler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/AttackType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BGM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BGMFade.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BGMSituation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BGMSwitch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BGMSystemDefine.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BNpcAnnounceIcon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BNpcBase.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BNpcCustomize.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BNpcName.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BNpcParts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BacklightColor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Balloon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BaseParam.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BattleLeve.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BeastRankBonus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BeastReputationRank.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BeastTribe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Behavior.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BenchmarkOverrideEquipment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Buddy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BuddyAction.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BuddyEquip.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BuddyItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BuddyRank.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/BuddySkill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Cabinet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CabinetCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Calendar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CharaMakeCustomize.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CharaMakeType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ChocoboRace.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ChocoboRaceAbility.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ChocoboRaceAbilityType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ChocoboRaceItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ChocoboRaceRank.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ChocoboRaceStatus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ChocoboRaceTerritory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ChocoboRaceTutorial.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ChocoboRaceWeather.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ChocoboTaxi.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ChocoboTaxiStand.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ClassJob.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ClassJobCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Companion.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CompanionMove.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CompanionTransient.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CompanyAction.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CompanyCraftDraft.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CompanyCraftDraftCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CompanyCraftManufactoryState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CompanyCraftPart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CompanyCraftProcess.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CompanyCraftSequence.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CompanyCraftSupplyItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CompanyCraftType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CompanyLeve.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CompanyLeveRule.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CompleteJournal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CompleteJournalCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentCloseCycle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentExAction.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentFinderCondition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentFinderConditionTransient.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentGauge.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentGaugeColor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentMemberType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentNpcTalk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentRandomSelect.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentRoulette.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentRouletteOpenRule.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentRouletteRoleBonus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentTalk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentTalkParam.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ContentsNote.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CraftAction.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CraftLeve.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CraftLevelDifference.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CraftType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Credit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CreditBackImage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CreditCast.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CreditList.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CreditListText.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Currency.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CustomTalk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CustomTalkDynamicIcon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CustomTalkNestHandlers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/CutScreenImage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Cutscene.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DailySupplyItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DawnContent.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DawnGrowMember.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DawnMemberUIParam.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DawnQuestMember.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DeepDungeon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DeepDungeonBan.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DeepDungeonDanger.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DeepDungeonEquipment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DeepDungeonFloorEffectUI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DeepDungeonItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DeepDungeonLayer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DeepDungeonMagicStone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DeepDungeonMap5X.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DeepDungeonRoom.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DeepDungeonStatus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DefaultTalk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DefaultTalkLipSyncType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DeliveryQuest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DescriptionPage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DescriptionString.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DisposalShop.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DisposalShopFilterType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DisposalShopItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DpsChallenge.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DpsChallengeOfficer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/DpsChallengeTransient.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ENpcBase.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ENpcDressUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ENpcDressUpDress.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ENpcResident.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EObj.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EObjName.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EmjAddon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EmjDani.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Emote.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EmoteCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EquipRaceCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EquipSlotCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EurekaAetherItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EurekaAethernet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EurekaGrowData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EurekaLogosMixerProbability.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EurekaMagiaAction.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EurekaMagiciteItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EurekaMagiciteItemType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EurekaSphereElementAdjust.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EventAction.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EventIconPriority.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EventIconType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EventItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EventItemCastTimeline.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EventItemHelp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/EventItemTimeline.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ExVersion.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ExportedSG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FCActivity.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FCActivityCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FCAuthority.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FCAuthorityCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FCChestName.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FCHierarchy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FCProfile.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FCReputation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FCRights.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Fate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FateProgressUI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FccShop.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Festival.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FieldMarker.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FishParameter.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FishingRecordType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FishingRecordTypeTransient.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FishingSpot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Frontline03.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Frontline04.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FurnitureCatalogCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/FurnitureCatalogItemList.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GCRankGridaniaFemaleText.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GCRankGridaniaMaleText.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GCRankLimsaFemaleText.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GCRankLimsaMaleText.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GCRankUldahFemaleText.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GCRankUldahMaleText.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GCScripShopCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GCScripShopItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GCShop.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GCShopItemCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GCSupplyDuty.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GCSupplyDutyReward.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GFATE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GFateClimbing2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GFateClimbing2Content.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GFateClimbing2TotemType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GFateRideShooting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GardeningSeed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GatheringCondition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GatheringExp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GatheringItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GatheringItemLevelConvertTable.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GatheringItemPoint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GatheringLeve.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GatheringLeveRoute.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GatheringNotebookList.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GatheringPoint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GatheringPointBase.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GatheringPointBonus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GatheringPointBonusType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GatheringPointName.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GatheringSubCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GatheringType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GcArmyCaptureTactics.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GcArmyExpedition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GcArmyExpeditionMemberBonus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GcArmyExpeditionType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GcArmyMemberGrow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GcArmyTraining.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GeneralAction.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GilShop.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GilShopItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GoldSaucerArcadeMachine.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GoldSaucerTextData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GrandCompany.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GrandCompanyRank.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GuardianDeity.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Guide.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GuidePage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GuidePageString.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GuideTitle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GuildOrder.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GuildOrderGuide.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GuildOrderOfficer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GuildleveAssignment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/GuildleveAssignmentCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HairMakeType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HouseRetainerPose.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HousingAethernet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HousingAppeal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HousingEmploymentNpcList.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HousingEmploymentNpcRace.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HousingExterior.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HousingFurniture.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HousingLandSet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HousingMapMarkerInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HousingMerchantPose.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HousingPlacement.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HousingPreset.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HousingUnitedExterior.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HousingYardObject.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HowTo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HowToCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HowToPage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HugeCraftworksNpc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/HugeCraftworksRank.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/IndividualWeather.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/InstanceContent.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/InstanceContentBuff.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/InstanceContentCSBonus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/InstanceContentGuide.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/InstanceContentTextData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Item.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ItemAction.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ItemFood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ItemLevel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ItemSearchCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ItemSeries.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ItemSpecialBonus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ItemUICategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/JobHudManual.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/JobHudManualPriority.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/JournalCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/JournalGenre.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/JournalSection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Leve.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/LeveAssignmentType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/LeveClient.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/LeveRewardItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/LeveRewardItemGroup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/LeveVfx.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Level.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/LogFilter.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/LogKind.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/LogKindCategoryText.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/LogMessage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/LotteryExchangeShop.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MacroIcon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MacroIconRedirectOld.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MainCommand.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MainCommandCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ManeuversArmor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MapMarker.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MapMarkerRegion.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MapSymbol.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Marker.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MasterpieceSupplyDuty.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MasterpieceSupplyMultiplier.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Materia.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MateriaJoinRate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MateriaJoinRateGatherCraft.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MiniGameRA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MinionRace.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MinionRules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MinionSkillType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MobHuntOrderType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MobHuntTarget.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ModelChara.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ModelSkeleton.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ModelState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MonsterNote.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MonsterNoteTarget.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Mount.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MountAction.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MountCustomize.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MountFlyingCondition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MountSpeed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MountTransient.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MoveTimeline.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/MoveVfx.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/NotebookDivision.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/NotebookDivisionCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/NotoriousMonster.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/NpcEquip.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/NpcYell.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Omen.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/OnlineStatus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/OpenContent.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/OpenContentCandidateName.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Opening.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Orchestrion.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/OrchestrionCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/OrchestrionPath.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/OrchestrionUiparam.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ParamGrow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PartyContent.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PartyContentCutscene.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PartyContentTextData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Perform.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PerformTransient.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Pet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PetAction.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Picture.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PlaceName.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PlantPotFlowerSeed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PreHandler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PublicContent.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PublicContentCutscene.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PublicContentTextData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PvPAction.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PvPActionSort.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PvPRank.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PvPSelectTrait.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/PvPTrait.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Quest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/QuestBattle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/QuestClassJobReward.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/QuestClassJobSupply.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/QuestRedoGroup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/QuestRepeatFlag.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/QuestRewardOther.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/QuickChat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/QuickChatTransient.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RPParameter.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Race.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RacingChocoboItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RacingChocoboName.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RacingChocoboNameCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RacingChocoboNameInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RacingChocoboParam.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RecastNavimesh.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Recipe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RecipeLevelTable.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RecipeNotebookList.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RecommendContents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Relic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Relic3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RelicItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RelicNote.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RelicNoteCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Resident.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RetainerTask.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RetainerTaskLvRange.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RetainerTaskNormal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RetainerTaskParameter.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/RetainerTaskRandom.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Salvage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SatisfactionNpc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SatisfactionSupply.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SatisfactionSupplyReward.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ScenarioTree.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ScenarioTreeTips.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ScenarioTreeTipsClassQuest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ScenarioTreeTipsQuest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ScenarioType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ScreenImage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SecretRecipeBook.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SkyIsland2Mission.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SkyIsland2MissionDetail.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SkyIsland2MissionType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SkyIsland2RangeType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SnipeTalk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SnipeTalkName.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SpearfishingItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SpearfishingNotebook.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SpearfishingRecordPage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SpecialShop.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SpecialShopItemCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Stain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/StainTransient.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Status.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/StatusHitEffect.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/StatusLoopVFX.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Story.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SubmarineExploration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SubmarineMap.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SubmarinePart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SubmarineRank.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/SwitchTalk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TerritoryType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TextCommand.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Title.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Tomestones.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TomestonesItem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TopicSelect.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Town.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Trait.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TraitRecast.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TraitTransient.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Transformation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Treasure.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TreasureHuntRank.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TreasureSpot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Tribe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TripleTriad.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TripleTriadCard.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TripleTriadCardRarity.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TripleTriadCardResident.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TripleTriadCardType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TripleTriadCompetition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TripleTriadRule.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Tutorial.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TutorialDPS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TutorialHealer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/TutorialTank.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/UIColor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/VFX.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/VaseFlower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Warp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/WarpCondition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/WarpLogic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/Weather.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/WeatherGroup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/WeatherRate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/WeatherReportReplace.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/WeddingBGM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/WeeklyBingoOrderData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/WeeklyBingoRewardData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/WeeklyBingoText.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/WeeklyLotBonus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/World.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/WorldDCGroupType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/YKW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/YardCatalogCategory.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/YardCatalogItemList.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/ZoneSharedGroup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Definitions/game.ver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/DotNetZip.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/DotNetZip.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/DotSquish.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/DotSquish.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/EntityFramework.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/EntityFramework.SqlServer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/EntityFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/EntityFramework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Extractor.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Extractor.exe.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Extractor.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Ionic.Zip.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/SaintCoinach.History.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/SaintCoinach.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/SaintCoinach.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/SaintCoinach.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/System.Data.SQLite.EF6.Migrations.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/System.Data.SQLite.EF6.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/System.Data.SQLite.Linq.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/System.Data.SQLite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/System.Data.SQLite.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/System.Data.SQLite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/YamlDotNet.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/YamlDotNet.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/YamlDotNet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/x64/SQLite.Interop.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/bin/Debug/x86/SQLite.Interop.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/obj/Debug/Extractor.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/obj/Debug/Extractor.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/obj/Debug/Extractor.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/obj/Debug/Extractor.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/obj/Debug/Extractor.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/obj/Debug/Extractor.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/Extractor/packages.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/XIV extractor.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/DotNetZip.1.12.0/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/DotNetZip.1.12.0/DotNetZip.1.12.0.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/DotNetZip.1.12.0/lib/net20/DotNetZip.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/DotNetZip.1.12.0/lib/net20/DotNetZip.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/EntityFramework.6.1.3.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/content/App.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/content/Web.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/lib/net40/EntityFramework.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/lib/net40/EntityFramework.SqlServer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/lib/net40/EntityFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/lib/net40/EntityFramework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/lib/net45/EntityFramework.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/lib/net45/EntityFramework.SqlServer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/lib/net45/EntityFramework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/tools/EntityFramework.PowerShell.Utility.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/tools/EntityFramework.PowerShell.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/tools/EntityFramework.psd1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/tools/EntityFramework.psm1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/tools/about_EntityFramework.help.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/tools/init.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/tools/install.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.1.3/tools/migrate.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/EntityFramework.6.2.0.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/content/net40/App.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/content/net40/Web.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/lib/net40/EntityFramework.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/lib/net40/EntityFramework.SqlServer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/lib/net40/EntityFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/lib/net40/EntityFramework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/lib/net45/EntityFramework.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/lib/net45/EntityFramework.SqlServer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/lib/net45/EntityFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/lib/net45/EntityFramework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/tools/EntityFramework.PowerShell.Utility.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/tools/EntityFramework.PowerShell.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/tools/EntityFramework.psd1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/tools/EntityFramework.psm1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/tools/about_EntityFramework.help.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/tools/init.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/tools/install.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/EntityFramework.6.2.0/tools/migrate.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Ionic.Zip-1.9.1.8.1.9.1.8/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Ionic.Zip-1.9.1.8.1.9.1.8/Ionic.Zip-1.9.1.8.1.9.1.8.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Ionic.Zip-1.9.1.8.1.9.1.8/lib/Ionic.Zip.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Ionic.Zip.1.9.1.8/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Ionic.Zip.1.9.1.8/Ionic.Zip.1.9.1.8.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Ionic.Zip.1.9.1.8/lib/Ionic.Zip.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Ionic.Zip.1.9.1.8/nuget.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/Newtonsoft.Json.12.0.1.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/net20/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/net20/Newtonsoft.Json.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/net20/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/net35/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/net35/Newtonsoft.Json.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/net35/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/net40/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/net40/Newtonsoft.Json.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/net40/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/net45/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/net45/Newtonsoft.Json.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/net45/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/netstandard1.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/netstandard1.0/Newtonsoft.Json.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/netstandard1.0/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/netstandard1.3/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/netstandard1.3/Newtonsoft.Json.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/netstandard1.3/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/netstandard2.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/netstandard2.0/Newtonsoft.Json.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/netstandard2.0/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.1/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/Newtonsoft.Json.12.0.2.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/net20/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/net20/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/net35/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/net35/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/net40/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/net40/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/net45/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/net45/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.0/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.3/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.3/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/netstandard2.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/netstandard2.0/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/Newtonsoft.Json.12.0.2/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.1.0.105.2/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.1.0.105.2/System.Data.SQLite.1.0.105.2.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/System.Data.SQLite.Core.1.0.105.2.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/build/net20/System.Data.SQLite.Core.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/build/net20/x64/SQLite.Interop.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/build/net20/x86/SQLite.Interop.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/build/net40/System.Data.SQLite.Core.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/build/net40/x64/SQLite.Interop.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/build/net40/x86/SQLite.Interop.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/build/net45/System.Data.SQLite.Core.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/build/net45/x64/SQLite.Interop.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/build/net45/x86/SQLite.Interop.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/build/net451/System.Data.SQLite.Core.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/build/net451/x64/SQLite.Interop.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/build/net451/x86/SQLite.Interop.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/build/net46/System.Data.SQLite.Core.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/build/net46/x64/SQLite.Interop.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/build/net46/x86/SQLite.Interop.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/lib/net20/System.Data.SQLite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/lib/net20/System.Data.SQLite.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/lib/net20/System.Data.SQLite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/lib/net40/System.Data.SQLite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/lib/net40/System.Data.SQLite.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/lib/net40/System.Data.SQLite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/lib/net45/System.Data.SQLite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/lib/net45/System.Data.SQLite.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/lib/net45/System.Data.SQLite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/lib/net451/System.Data.SQLite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/lib/net451/System.Data.SQLite.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/lib/net451/System.Data.SQLite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/lib/net46/System.Data.SQLite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/lib/net46/System.Data.SQLite.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Core.1.0.105.2/lib/net46/System.Data.SQLite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/System.Data.SQLite.EF6.1.0.105.2.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net40/app.config.install.xdt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net40/app.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net40/web.config.install.xdt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net40/web.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net45/app.config.install.xdt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net45/app.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net45/web.config.install.xdt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net45/web.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net451/app.config.install.xdt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net451/app.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net451/web.config.install.xdt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net451/web.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net46/app.config.install.xdt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net46/app.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net46/web.config.install.xdt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/content/net46/web.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/lib/net40/System.Data.SQLite.EF6.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/lib/net45/System.Data.SQLite.EF6.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/lib/net451/System.Data.SQLite.EF6.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/lib/net46/System.Data.SQLite.EF6.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/tools/net40/install.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/tools/net45/install.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/tools/net451/install.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.1.0.105.2/tools/net46/install.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.Migrations.1.0.104/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.Migrations.1.0.104/System.Data.SQLite.EF6.Migrations.1.0.104.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.EF6.Migrations.1.0.104/lib/System.Data.SQLite.EF6.Migrations.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/System.Data.SQLite.Linq.1.0.105.2.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/content/net20/app.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/content/net20/web.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/content/net40/app.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/content/net40/web.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/content/net45/app.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/content/net45/web.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/content/net451/app.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/content/net451/web.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/content/net46/app.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/content/net46/web.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/lib/net20/System.Data.SQLite.Linq.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/lib/net40/System.Data.SQLite.Linq.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/lib/net45/System.Data.SQLite.Linq.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/lib/net451/System.Data.SQLite.Linq.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-extractor/XIVExtractor/packages/System.Data.SQLite.Linq.1.0.105.2/lib/net46/System.Data.SQLite.Linq.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/aether-quest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/aether-shard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/feather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/player-location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/map/Pin.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menus/MenuActions.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/assets/actions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/assets/items.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/assets/job-abbr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/assets/job-name.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/assets/place-name.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/assets/places.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/assets/weathers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/custom/aether-currents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/custom/treasure-locations.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/かいはつしつ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ひんがしの国.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アイズ・オブ・アレキサンダー.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アクアポリス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アク・アファー円形劇場.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アジス・ラー.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アジムステップ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アストラガロス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アトラス山頂.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アドミラルブリッジ：提督室.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アナイダアカデミア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アバラシア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アバラシア雲海.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アム・アレーン.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アメノミハシラ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アラミゴ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アラミゴ王宮屋上庭園.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アラミゴ王立飛空艇発着場.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アーム・オブ・ゴルディオス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アーム・オブ・ミダース.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/アーモロート.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/イシュガルド教皇庁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/イシュガルド：上層.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/イシュガルド：下層.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/イディルシャイア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/イマキュレートクラウン.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/イル・メグ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ウズネアカナル.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ウズネアカナル祭殿.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ウルダハ商館応接室.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ウルダハ：ザル回廊.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ウルダハ：ナル回廊.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ウルヴズジェイル係船場.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ウルヴズジェイル演習場.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/エウレカ：アネモス帯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/エウレカ：パゴス帯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/エウレカ：ヒュダトス帯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/エウレカ：ピューロス帯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/エオルゼア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/エオルゼア同盟軍本陣.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/エオルゼア地下空間.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/エデンコア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/エデン甲板.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/エーデルワイス商会.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/オサード.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/オメガ管制室.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/オ・ゴモロ火口神殿.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/オーラムヴェイル.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/カストルム・アバニア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/カストルム・フルーミニス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/カストルム・メリディアヌム.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/カッターズクライ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/カッパーベル銅山 (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/カッパーベル銅山.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/カフ・オブ・ゴルディオス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/カフ・オブ・ミダース.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/カルテノー平原：外縁遺跡群.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/カルン埋没寺院 (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/カルン埋没寺院.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/カードバトルルーム.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ガレマール帝国軍天幕.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ガンエン廟.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/キタンナ神影洞.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ギムリトダーク.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ギラバニア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ギラバニア山岳地帯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ギラバニア湖畔地帯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ギラバニア辺境地帯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/クガネ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/クガネ城.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/クガネ大橋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/クリスタリウム.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/クリスタルタワー演習場.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/クルザス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/クルザス中央高地.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/クルザス西部高地.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/グブラ幻想図書館 (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/グブラ幻想図書館.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/グリダニア：新市街.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/グリダニア：旧市街.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/グリフィン大橋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/グルグ火山.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ケルベロスの胃袋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/コルシア島.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/コンテイメントベイP1T6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/コンテイメントベイS1T7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/コンテイメントベイZ1T9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ゴブレットビュート.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ゴブレットビュート：コテージ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ゴブレットビュート：ハウス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ゴブレットビュート：プライベートルーム.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ゴブレットビュート：レジデンス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ゴブレットビュート：地下工房.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ゴルディオス・ノット.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ゴールドソーサー.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/サスタシャ浸食洞 (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/サスタシャ浸食洞.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ザナラーン.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ザ・バーン.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ザ・フォールド.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/シリウス大灯台 (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/シリウス大灯台.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/シルクスの塔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/シルクスの峡間.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/シルクス・ツイニング.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/シロガネ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/シロガネ：コテージ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/シロガネ：ハウス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/シロガネ：プライベートルーム.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/シロガネ：レジデンス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/シロガネ：地下工房.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/シンギュラリティ・リアクター.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/シールロック.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ジャナン・カット地下祭壇.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ストーンヴィジル (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ストーンヴィジル.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/スノークローク大氷壁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/セイレーン海.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ゼルファトル.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ゼーメル要塞.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ソウル・オブ・アレキサンダー.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ソーム・アル山麓 (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ソーム・アル山麓.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ソール・カイ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/タムタラの墓所 (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/タムタラの墓所.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ダスクヴィジル.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/チョコボスクウェア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/テンペスト.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ディアデム諸島.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/トップマスト：ロビー.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/トップマスト：部屋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/トトラクの千獄.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ドォーヌ・メグ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ドマ城.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ドマ町人地.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ドラゴンズエアリー.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ドラヴァニア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ドラヴァニア雲海.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ナナモ大風車：ロビー.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ナナモ大風車：部屋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ナバース家の鉱山.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ネバーリープ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ネレウス海淵.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ノルヴラント.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ハウケタ御用邸 (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ハウケタ御用邸.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ハウリングアイ外縁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ハウリングアイ石塔群.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ハラタリ修練所 (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ハラタリ修練所.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ハルブレーカー・アイル (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ハルブレーカー・アイル.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ハート・オブ・アレキサンダー.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/バインディングコイル.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/バエサルの長城.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/バハムートコア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/バルダム覇道.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/バーデン・オブ・ゴルディオス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/バーデン・オブ・ミダース.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/パロック繋留基地.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ヒドゥンゴージ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/フィスト・オブ・ゴルディオス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/フィスト・オブ・ミダース.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/フィールド・オブ・グローリー.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/フォルタン伯爵邸.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/フラクタル・コンティニアム (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/フラクタル・コンティニアム.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/フロンデール薬学院小児病棟.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ブルースカイ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ブレイフロクスの野営地 (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ブレイフロクスの野営地.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ブレス・オブ・アレキサンダー.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ベラフディア遺跡風特設アスレチック.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ペンダント居住館：居室.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ホルミンスター.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ポルタ・デクマーナ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/マトーヤの洞窟.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/マリカの大井戸.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ミスト・ヴィレッジ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ミスト・ヴィレッジ：コテージ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ミスト・ヴィレッジ：ハウス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ミスト・ヴィレッジ：プライベートルーム.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ミスト・ヴィレッジ：レジデンス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ミスト・ヴィレッジ：地下工房.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ミゼリー号.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ミダース・ノット.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/メテオの陰地.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/メテオ探査坑浅部.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/メテオ探査坑深部.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/モルディオン監獄.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/モードゥナ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ヤンサ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ユールモア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ライケンウィード演習場.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ライトフェザー闘技場.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ラグナロク級三番艦：作戦室.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ラグナロク級三番艦：艦体中央部.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ラグナロク級六番艦：再生制御区.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ラグナロク級六番艦：第一艦橋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ラグナロク級六番艦：艦体中央部.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ラグナロク級拘束艦.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ラケティカ大森林.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ラノシア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ラベンダーベッド.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ラベンダーベッド：コテージ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ラベンダーベッド：ハウス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ラベンダーベッド：プライベートルーム.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ラベンダーベッド：レジデンス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ラベンダーベッド：地下工房.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ラールガーズリーチ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/リェー・ギア・ダンジョン.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/リドルアナ大瀑布.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/リムサ・ロミンサ：上甲板層.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/リムサ・ロミンサ：下甲板層.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/リリーヒルズ：ロビー.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/リリーヒルズ：部屋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/レイクランド.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/レオファードの私室.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ロンカの遺構.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ロータノ海.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ワンダラーパレス (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ワンダラーパレス.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/ヴァレンティオンセレモニー.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/不滅隊兵舎.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/不語仙の座卓.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/中央ザナラーン.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/中央ラノシア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/中枢区画.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/亡霊屋敷 ホーンテッドマナー.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/低地ドラヴァニア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/低地ラノシア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/供物穴.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/劇場艇プリマビスタ・ブリッジ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/劇場艇プリマビスタ・大道具部屋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/北ザナラーン.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/十二神大聖堂.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/南ザナラーン.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/双蛇党兵舎.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/古アムダプール市街 (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/古アムダプール市街.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/古代の民の迷宮.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/古城アムダプール (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/古城アムダプール.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/古木の神判地.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/外地ラノシア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/大トゥパサの崇神所.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/大草原の狩場.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/大迷宮バハムート.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/失われた都 ラバナスタ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/妖精王の舞踏場.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/宝物殿.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/宿屋「ミズンマスト」.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/宿屋「砂時計亭」.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/対リヴァイアサン双胴船.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/封じられた聖塔 リドルアナ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/帰燕館.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/影の国ダン・スカー.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/応接室.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/戒律の殻.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/旅籠「九つの雲」.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/旅館「とまり木」.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/星導山寺院.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/星見の間 .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/望海楼.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/東ザナラーン.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/東ラノシア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/東方地域.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/楽欲の僧院 オーボンヌ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/次元の狭間.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/武神の闘技場.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/死者の宮殿.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/残骸島.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/水没遺構 スカラ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/決闘裁判場.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/炎帝祭跡.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/烈士庵.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/無の大地.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/獄之底.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/獄之蓋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/白帝の竹林.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/石の家.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/砂の家.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/神勇隊司令室.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/神殿騎士団総長室.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/神話空間.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/禁忌都市マハ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/禁絶幻想.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/稼働隔壁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/第一艦橋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/紅梅御殿：ロビー.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/紅梅御殿：部屋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/紅玉海.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/紫水宮.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/終末のアーモロート.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/結晶化空間.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/美神の地下神殿.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/群青空域.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/聖アンダリム神学院.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/聖モシャーヌ植物園 (Hard).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/聖モシャーヌ植物園.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/船着場の平屋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/茨の園.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/蛇神大社.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/被検世界「シグマ」V1.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/被検世界「シグマ」V2.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/被検世界「シグマ」V3.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/被検世界「シグマ」V4.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/被検世界「デルタ」V1.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/被検世界「デルタ」V2.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/被検世界「デルタ」V3.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/被検世界「デルタ」V4.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/被検世界「プサイ」V1.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/被検世界「プサイ」V2.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/西ザナラーン.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/西ラノシア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/超越技術研究所.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/逆さの塔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/醴泉神社参道.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/醴泉神社境内.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/銀冑団総長室.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/闇の世界.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/雲廊.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/高地ドラヴァニア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/高地ラノシア.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/魔大陸中枢.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/魔導城プラエトリウム.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/魔科学研究所.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/魔航船ヴォイドアーク.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/鷲獅子の間.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/黒渦団兵舎.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/黒衣森.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/黒衣森：中央森林.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/黒衣森：北部森林.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/黒衣森：南部森林.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/黒衣森：東部森林.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/黙約の塔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/maps/？？？？.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/sources/ventures.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/Pointer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-arrow-up-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-arrow-up-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-chat-bubble32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-chat-bubble48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-closed-hand32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-closed-hand48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-forbidden32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-forbidden48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-hand32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-hand48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-link32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-link48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-magnifier-zoom-in-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-magnifier-zoom-in-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-magnifier-zoom-out-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-magnifier-zoom-out-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-magnifier32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-magnifier48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-move32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-move48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-pointer-boot32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-pointer-boot48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-pointer-chat32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-pointer-chat48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-pointer-hand32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-pointer-hand48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-pointer-help-v2-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-pointer-help32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-pointer-magnifier32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-pointer-magnifier48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-primary32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-primary48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-redX-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-redX-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-resize-diag1-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-resize-diag1-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-resize-diag2-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-resize-diag2-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-resize-horizontal32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-resize-horizontal48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-resize-vertical32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-resize-vertical48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-select32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-select48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-submenu32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-submenu48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-sword32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/cursors/arr-sword48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menus/actions-menu.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-extractor/SaintCoinach" beforeDir="false" afterPath="$PROJECT_DIR$/data-extractor/SaintCoinach" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-extractor/SaintCoinach/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-extractor/SaintCoinach/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/maps/lakeland.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/maps/lakeland.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/main.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/main.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapPinLayer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/map/MapPinLayer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapSelector.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/CarouselSelector.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapWindow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/map/MapWindow.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MenuHeaderItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/HeaderButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MenuList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/LocationList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MenuLocations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menus/MenuLocations.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MenuMapFinder.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menus/MenuMapFinder.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pin.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TreasureMap.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/TreasureMap.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Window.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Window.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WindowManager.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WindowManager.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menus/MenuActions.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menus/MenuLocations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menus/locations-menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menus/MenuMapFinder.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menus/map-finder-menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/_functions.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/icon.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/map-selector.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/carousel-selector.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/map.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/menu-header-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/menu-header-item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/menu-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/menu-list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/pin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/pin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/window.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/window.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/utils.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1185,55 +28,16 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.60801053">
+    <splitter split-orientation="horizontal" split-proportion="0.4746696">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.43589744">
+        <splitter split-orientation="vertical" split-proportion="0.42407808">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/css/menu.scss">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="51">
-                      <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/map/Pin.jsx">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="51">
-                      <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/menus/MenuLocations.jsx">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="85">
-                      <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/menus/MenuMapFinder.jsx">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="85">
-                      <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-                      <folding>
-                        <element signature="e#0#38#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/components/ui/Icon.jsx">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="136">
-                      <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+                    <state relative-caret-position="236">
+                      <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
                       <folding>
                         <element signature="e#0#37#0" expanded="true" />
                       </folding>
@@ -1242,51 +46,40 @@
                 </entry>
               </file>
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/ui/CarouselSelector.jsx">
+                <entry file="file://$PROJECT_DIR$/src/app-config.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="493">
-                      <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+                    <state relative-caret-position="153">
+                      <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
                       <folding>
-                        <element signature="e#0#38#0" expanded="true" />
+                        <element signature="e#0#63#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
                 </entry>
               </file>
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/map/MapPinLayer.jsx">
+                <entry file="file://$PROJECT_DIR$/src/css/app.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="85">
-                      <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-                      <folding>
-                        <element signature="e#0#24#0" expanded="true" />
-                      </folding>
+                    <state relative-caret-position="-85">
+                      <caret line="4" column="16" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="16" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/css/_functions.scss">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="187">
+                      <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
                     </state>
                   </provider>
                 </entry>
               </file>
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/css/treasure-map.scss">
-                  <provider selected="true" editor-type-id="text-editor" />
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/css/window.scss">
+                <entry file="file://$PROJECT_DIR$/src/css/icon.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="408">
-                      <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/map/MapWindow.jsx">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="119">
-                      <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-                      <folding>
-                        <element signature="e#0#57#0" expanded="true" />
-                      </folding>
+                    <state relative-caret-position="170">
+                      <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
                     </state>
                   </provider>
                 </entry>
@@ -1296,93 +89,25 @@
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/utils/constants.js">
+                <entry file="file://$PROJECT_DIR$/src/components/menus/locations-menu.jsx">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state>
-                      <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/utils/reducer.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="323">
-                      <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/utils/actions.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state>
-                      <caret column="31" selection-start-column="13" selection-end-column="31" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/css/carousel-selector.scss">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="119">
-                      <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/ui/TreasureMap.jsx">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="51">
-                      <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/ui/HeaderButton.jsx">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="221">
-                      <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+                    <state relative-caret-position="170">
+                      <caret line="14" column="102" selection-start-line="14" selection-start-column="102" selection-end-line="14" selection-end-column="102" />
                       <folding>
-                        <element signature="e#0#26#0" expanded="true" />
+                        <element signature="e#0#38#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
                 </entry>
               </file>
               <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/components/menus/MenuActions.jsx">
-                  <provider selected="true" editor-type-id="text-editor" />
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/ui/LocationList.jsx">
+                <entry file="file://$PROJECT_DIR$/src/components/menus/actions-menu.jsx">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="306">
-                      <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+                    <state>
+                      <caret column="2" selection-start-column="2" selection-end-column="2" />
                       <folding>
-                        <element signature="e#0#26#0" expanded="true" />
+                        <element signature="e#0#38#0" expanded="true" />
                       </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/css/_functions.scss">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="204">
-                      <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/css/icon.scss">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="187">
-                      <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="61" />
                     </state>
                   </provider>
                 </entry>
@@ -1393,11 +118,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="89" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="89" />
+                <state relative-caret-position="306">
+                  <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
                   <folding>
                     <element signature="e#0#38#0" expanded="true" />
                   </folding>
@@ -1406,22 +131,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/css/app.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-                  <folding>
-                    <element signature="e#678#1017#2" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/WindowManager.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="595">
-                  <caret line="35" selection-start-line="35" selection-end-line="35" />
+                <state relative-caret-position="663">
+                  <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
                   <folding>
                     <element signature="e#0#61#0" expanded="true" />
                   </folding>
@@ -1429,11 +142,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Window.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+                <state relative-caret-position="561">
+                  <caret line="33" column="35" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="35" />
                   <folding>
                     <element signature="e#0#49#0" expanded="true" />
                   </folding>
@@ -1494,7 +207,6 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/utils/actions.js" />
         <option value="$PROJECT_DIR$/src/utils/reducer.js" />
-        <option value="$PROJECT_DIR$/src/components/WindowManager.jsx" />
         <option value="$PROJECT_DIR$/src/css/map.scss" />
         <option value="$PROJECT_DIR$/src/data/custom/aether-currents.json" />
         <option value="$PROJECT_DIR$/src/components/MapWindow.jsx" />
@@ -1502,11 +214,9 @@
         <option value="$PROJECT_DIR$/src/components/MapPinLayer.jsx" />
         <option value="$PROJECT_DIR$/src/css/pin.scss" />
         <option value="$PROJECT_DIR$/src/utils/utils.js" />
-        <option value="$PROJECT_DIR$/src/css/icon.scss" />
         <option value="$PROJECT_DIR$/src/css/map-selector.scss" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/css/app.scss" />
-        <option value="$PROJECT_DIR$/src/css/_functions.scss" />
         <option value="$PROJECT_DIR$/src/css/menu-header-item.scss" />
         <option value="$PROJECT_DIR$/src/css/menu-list.scss" />
         <option value="$PROJECT_DIR$/src/css/window.scss" />
@@ -1523,16 +233,25 @@
         <option value="$PROJECT_DIR$/src/components/ui/HeaderButton.jsx" />
         <option value="$PROJECT_DIR$/src/components/LocationList.jsx" />
         <option value="$PROJECT_DIR$/src/components/ui/LocationList.jsx" />
+        <option value="$PROJECT_DIR$/src/components/menus/MenuActions.jsx" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/WindowManager.jsx" />
         <option value="$PROJECT_DIR$/src/components/ui/Icon.jsx" />
+        <option value="$PROJECT_DIR$/src/components/hooks/use-window.js" />
+        <option value="$PROJECT_DIR$/src/components/Window.jsx" />
+        <option value="$PROJECT_DIR$/src/app-config.js" />
+        <option value="$PROJECT_DIR$/src/components/menus/locations-menu.jsx" />
+        <option value="$PROJECT_DIR$/src/components/menus/actions-menu.jsx" />
+        <option value="$PROJECT_DIR$/src/css/icon.scss" />
+        <option value="$PROJECT_DIR$/src/css/_functions.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="180" />
-    <option name="y" value="3" />
-    <option name="width" value="2462" />
-    <option name="height" value="1400" />
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="2357" />
+    <option name="height" value="1347" />
   </component>
   <component name="ProjectId" id="1PkUoMznDSvh7Apqxrr5qi0eqph" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -1551,11 +270,6 @@
             <path>
               <item name="find-my-treasure" type="b2602c69:ProjectViewProjectNode" />
               <item name="find-my-treasure" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="find-my-treasure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="find-my-treasure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1570,6 +284,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="menus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="find-my-treasure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="find-my-treasure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1642,15 +362,15 @@
       <workItem from="1566044835893" duration="45651000" />
       <workItem from="1566172219890" duration="28949000" />
       <workItem from="1566417766449" duration="23849000" />
-      <workItem from="1567687407363" duration="5922000" />
+      <workItem from="1567687407363" duration="10318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31646000" />
+    <option name="totallyTimeSpent" value="36042000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="180" y="3" width="2462" height="1400" extended-state="0" />
+    <frame x="-7" y="2" width="2357" height="1347" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -1659,16 +379,16 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="npm" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.20024979" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.20940357" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="LuaCheck" order="4" weight="0.32996634" />
-      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.23046567" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.24052718" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Find" order="7" visible="true" weight="0.3294893" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.38215488" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
@@ -1759,13 +479,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AppContext.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ffxiv-teamcraft/data-extraction/XIVExtractor/Extractor/Localize.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1786,16 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/constants.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1810,20 +513,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/custom/treasure-locations.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/custom/aether-currents.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1287">
           <caret line="150" column="9" selection-start-line="150" selection-start-column="9" selection-end-line="150" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/icon.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -1852,13 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1895,26 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding>
-            <element signature="e#678#1017#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WindowManager.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1924,102 +590,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/map/MapWindow.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/map/MapPinLayer.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/menus/map-finder-menu.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/map/Pin.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/menus/MenuLocations.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/menus/MenuMapFinder.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/_functions.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/carousel-selector.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ui/TreasureMap.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ui/LocationList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Window.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="89" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="89" />
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -2036,12 +610,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/map/MapPinLayer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/map/MapWindow.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/map/Pin.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/custom/treasure-locations.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppContext.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ui/Icon.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        <state relative-caret-position="236">
+          <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ui/LocationList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2056,8 +694,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/menus/MenuActions.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/components/WindowManager.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Window.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/hooks/use-window.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ui/TreasureMap.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/carousel-selector.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/menus/locations-menu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="102" selection-start-line="14" selection-start-column="102" selection-end-line="14" selection-end-column="102" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/menus/actions-menu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/icon.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
