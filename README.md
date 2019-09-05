@@ -4,6 +4,11 @@ Building a map that tracks the users location and the location of ingame maps. T
 
 ![Example of UI](https://i.gyazo.com/3d3f1b4db38e121a03b71037620275ba.jpg)
 
+
+
+## Technologies
+React + SCSS
+
 ## Available Scripts
 
 In the project directory, you can run:
