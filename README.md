@@ -2,6 +2,7 @@
 Building a map that tracks the users location and the location of ingame maps. The user can side by side compare the map locations from a familiar UI.
 
 
+![Example of UI](https://i.gyazo.com/3d3f1b4db38e121a03b71037620275ba.jpg)
 
 ## Available Scripts
 
