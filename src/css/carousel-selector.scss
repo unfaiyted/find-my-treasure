@@ -1,0 +1,50 @@
+@import "functions";
+
+.carousel-selector {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  color: #cccccc;
+  font-weight: 600;
+  font-size: 18px;
+
+  .left-arrow {
+    transform: rotate(180deg);
+    filter: brightness(0.5);
+
+  }
+  .right-arrow {
+    filter: brightness(0.5);
+  }
+
+  .left-arrow, .right-arrow {
+    @include cursor(pointer);
+    padding: 5px;
+    &.active {
+      filter: brightness(1);
+    }
+  }
+
+  .item {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    -webkit-transform: scaleY(0.8);
+    padding: 5px 11px 0px 8px;
+    text-shadow: 0px 0px 3px #CCCCCC;
+
+    &:hover {
+      border-radius: 8px;
+      box-shadow: inset 0px 0px 8px 1px rgba(150,130,27,0.7);
+      @include cursor(pointer);
+
+    }
+
+    &.selected {
+      border-radius: 8px;
+      color: #fff;
+      box-shadow: inset 0px 0px 8px 1px rgba(150,130,27,0.7);
+    }
+  }
+
+}

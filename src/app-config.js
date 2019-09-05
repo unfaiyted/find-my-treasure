@@ -1,6 +1,6 @@
-import MenuMapFinder from "./components/MenuMapFinder";
-import MenuLocations from "./components/MenuLocations";
-import MapWindow from "./components/MapWindow";
+import MenuMapFinder from "./components/menus/MenuMapFinder";
+import MenuLocations from "./components/menus/MenuLocations";
+import MapWindow from "./components/map/MapWindow";
 
 export const loadConfiguration = () => {
 

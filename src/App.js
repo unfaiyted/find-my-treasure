@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import './App.css';
-import Icon from "./components/Icon";
+import './css/app.scss';
+import Icon from "./components/ui/Icon";
 import {StateProvider} from "./AppContext";
 import {loadConfiguration} from "./app-config";
 import WindowManager from "./components/WindowManager";
@@ -10,26 +10,6 @@ import HotkeyManager from "./components/HotkeyManager";
 function App() {
     const config = loadConfiguration();
 
-    // const [isMapOpen, setMapOpen] = useState(config.mapDefault);
-    // const [isMenuOpen, setMenuOpen] = useState(config.menuDefault);
-    // const [isMenuMapFinderOpen, setMenuMapFinderOpen] = useState(config.menuDefault);
-    //
-    // const toggleMap = () => {
-    //     localStorage.setItem("mapOpen", JSON.stringify(!isMapOpen));
-    //     setMapOpen(!isMapOpen);
-    // };
-    //
-    // const toggleMenu = () => {
-    //     localStorage.setItem("menuOpen", JSON.stringify(!isMenuOpen));
-    //     setMenuOpen(!isMenuOpen)
-    // };
-    //
-    // const toggleMapFinder = () => {
-    //     localStorage.setItem("menuMapFinderOpen", JSON.stringify(!isMenuMapFinderOpen));
-    //     setMenuMapFinderOpen(!isMenuMapFinderOpen)
-    // };
-
-
     return (
         <StateProvider initialState={config} reducer={reducer}>
             <div className="App">
@@ -37,11 +17,7 @@ function App() {
 
               </header>
                 <Icon window="menuLocations" name="signs"/>
-                {/*<Icon window="menuLocations" />*/}
-
-               {/* {isMapOpen && <TreasureMap/>}*/}
-               {/* {isMenuOpen && <MenuLocations onClick={toggleMenu}/>}*/}
-               {/*<MenuMapFinder onClick={toggleMapFinder}/>*/}
+                <Icon window="menuLocations" name="main" width={30} height={30} noOverlay/>
                <HotkeyManager/>
                <WindowManager/>
             </div>

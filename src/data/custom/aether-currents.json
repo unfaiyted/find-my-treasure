@@ -1,0 +1,164 @@
+{
+  "HW": [
+      {
+       "place": "Coerthas Western Highlands",
+        "currents":  [
+          {
+            "pos": {
+              "x": "20.8",
+              "y": "21.3",
+              "z": "0.5"
+            },
+            "type": "ground",
+            "comment": "Easy to find"
+          }
+        ]
+      }
+  ],
+  "SB": [
+
+  ],
+  "ShB": [
+    {
+      "place": "Lakeland",
+      "currents":  [
+        {
+          "pos": {
+            "x": "33.6",
+            "y": "28.8",
+            "z": "0.3"
+          },
+          "type": "ground",
+          "comment": "??"
+        },
+        {
+          "pos": {
+            "x": "30.1",
+            "y": "24.0",
+            "z": "0.1"
+          },
+          "type": "ground",
+          "comment": "?"
+        },
+        {
+          "pos": {
+            "x": "35.5",
+            "y": "24.0",
+            "z": "0.1"
+          },
+          "type": "ground",
+          "comment": "?"
+        },
+        {
+          "pos": {
+            "x": "35.5",
+            "y": "21.5",
+            "z": "0.3"
+          },
+          "type": "ground",
+          "comment": "?"
+        },
+        {
+          "pos": {
+            "x": "37.3",
+            "y": "21.1",
+            "z": "0.3"
+          },
+          "type": "ground",
+          "comment": "?"
+        },
+        {
+          "pos": {
+            "x": "34.6",
+            "y": "17.0",
+            "z": "0.4"
+          },
+          "type": "ground",
+          "comment": "?"
+        },
+        {
+          "pos": {
+            "x": "32.0",
+            "y": "14.6",
+            "z": "0.4"
+          },
+          "type": "ground",
+          "comment": "?"
+        },
+        {
+          "pos": {
+            "x": "35.4",
+            "y": "11.1",
+            "z": "0.8"
+          },
+          "type": "ground",
+          "comment": "?"
+        },
+        {
+          "pos": {
+            "x": "18.6",
+            "y": "18.4",
+            "z": "0.1"
+          },
+          "type": "ground",
+          "comment": "?"
+        },
+        {
+          "pos": {
+            "x": "9.4",
+            "y": "17.7",
+            "z": "0.5"
+          },
+          "type": "ground",
+          "comment": "?"
+        },
+        {
+          "pos": {
+            "x": "5.7",
+            "y": "14.3",
+            "z": "1.1"
+          },
+          "type": "ground",
+          "comment": "?"
+        },
+        {
+          "pos": {
+            "x": "8.0",
+            "y": "17",
+            "z": "0.5"
+          },
+          "type": "quest",
+          "comment": "The Astute Amaro NPC: Sentry Captain"
+        },
+        {
+          "pos": {
+            "x": "6.1",
+            "y": "15.4",
+            "z": "0.6"
+          },
+          "type": "quest",
+          "comment": "Imperative Repairs - NPC: Seanard"
+        },
+        {
+          "pos": {
+            "x": "7.4",
+            "y": "14.4",
+            "z": "0.6"
+          },
+          "type": "quest",
+          "comment": "An Unreasonable Request - NPC: Teanna"
+        },
+        {
+          "pos": {
+            "x": "12.0",
+            "y": "16.4",
+            "z": "0.0"
+          },
+          "type": "quest",
+          "onAnotherMap": true,
+          "comment": "Location: The Crystarium - A Job Well Done - NPC: Szem Djenmai"
+        }
+      ]
+    }
+  ]
+}

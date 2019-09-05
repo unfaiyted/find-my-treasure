@@ -1,22 +1,36 @@
 
 
 .map-pin {
+  position: relative;
   img {
     width: 18px;
     height: 18px;
   }
   .info {
-    display: none;
+    visibility: hidden;
+    position: absolute;
   }
   &:hover {
     .info {
-      display: inline;
-      position: fixed;
-      background: rgba(255,255,255,0.7);
+
+      p {
+
+      }
+
+      visibility: visible;
+      color: #fff;
+      position: absolute;
+      display: block;
+      min-width: 100px;
+      max-width: 200px;
+      background: rgba(0, 0, 0, 0.66);
       margin-left: 15px;
-      border-radius: 4px;
-      font-size: 12px;
-      padding: 5px;
+      border-radius: 10px;
+      font-size: 10px;
+      padding: 3px 5px;
+      text-align: left;
+      z-index: 999;
+
     }
   }
 
